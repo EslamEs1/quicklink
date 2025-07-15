@@ -70,118 +70,170 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     );
 
+    // Observe all counter elements
     counters.forEach((counter) => {
         counterObserver.observe(counter);
     });
 
-    // Adjust carousel caption based on screen size
-    function adjustCarouselCaption() {
-        const carouselCaptions = document.querySelectorAll(".carousel-caption");
-        const isMobile = window.innerWidth < 768;
-        const isSmallMobile = window.innerWidth < 576;
-        const isVerySmallMobile = window.innerWidth < 400;
+    // Mobile navbar fixes
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    const body = document.body;
 
-        carouselCaptions.forEach((caption) => {
-            // Reset text alignment
-            if (isMobile) {
-                caption.style.textAlign = "center";
-                caption.style.padding = "0 15px";
+    // Handle mobile menu toggle
+    if (navbarToggler && navbarCollapse) {
+        navbarToggler.addEventListener("click", function () {
+            const isOpen = navbarCollapse.classList.contains("show");
+
+            if (isOpen) {
+                body.classList.remove("navbar-open");
             } else {
-                caption.style.textAlign = "";
-                caption.style.padding = "";
+                body.classList.add("navbar-open");
             }
+        });
 
-            // Adjust buttons container
-            const buttonContainer =
-                caption.querySelector(".mt-4") ||
-                caption.querySelector(".mt-3");
-            if (buttonContainer) {
-                if (isSmallMobile) {
-                    buttonContainer.classList.add(
-                        "d-flex",
-                        "flex-column",
-                        "align-items-center",
-                        "gap-2"
-                    );
+        // Close mobile menu when clicking outside
+        document.addEventListener("click", function (event) {
+            if (
+                navbarCollapse.classList.contains("show") &&
+                !navbarCollapse.contains(event.target) &&
+                !navbarToggler.contains(event.target)
+            ) {
+                navbarToggler.click();
+            }
+        });
 
-                    // Adjust button spacing
-                    const buttons = buttonContainer.querySelectorAll(".btn");
-                    buttons.forEach((btn) => {
-                        btn.style.marginBottom = "10px";
-                        btn.style.marginLeft = "0";
-                        btn.style.marginRight = "0";
+        // Close mobile menu on escape key
+        document.addEventListener("keydown", function (event) {
+            if (
+                event.key === "Escape" &&
+                navbarCollapse.classList.contains("show")
+            ) {
+                navbarToggler.click();
+            }
+        });
+    }
 
-                        if (isVerySmallMobile) {
-                            btn.style.minWidth = "100px";
-                            btn.style.fontSize = "0.65rem";
-                            btn.style.padding = "0.4rem 0.8rem";
+    // Fix dropdown behavior on mobile
+    const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+
+    dropdownToggles.forEach((toggle) => {
+        toggle.addEventListener("click", function (e) {
+            if (window.innerWidth <= 991.98) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const dropdown = this.closest(".dropdown");
+                const isOpen = dropdown.classList.contains("show");
+                const dropdownMenu = dropdown.querySelector(".dropdown-menu");
+
+                // Close all other dropdowns
+                document
+                    .querySelectorAll(".dropdown.show")
+                    .forEach((openDropdown) => {
+                        if (openDropdown !== dropdown) {
+                            openDropdown.classList.remove("show");
+                            const otherMenu =
+                                openDropdown.querySelector(".dropdown-menu");
+                            if (otherMenu) {
+                                otherMenu.style.display = "none";
+                                otherMenu.style.opacity = "0";
+                                otherMenu.style.visibility = "hidden";
+                                otherMenu.style.transform = "translateY(-10px)";
+                                otherMenu.style.margin = "0";
+                                otherMenu.style.padding = "0";
+                                otherMenu.style.height = "0";
+                                otherMenu.style.overflow = "hidden";
+                            }
                         }
                     });
-                } else {
-                    buttonContainer.classList.remove("flex-column");
 
-                    // Reset button spacing
-                    const buttons = buttonContainer.querySelectorAll(".btn");
-                    buttons.forEach((btn) => {
-                        btn.style.marginBottom = "";
-                        btn.style.marginLeft = "";
-                        btn.style.marginRight = "";
-                        btn.style.minWidth = "";
-                        btn.style.fontSize = "";
-                        btn.style.padding = "";
-                    });
+                // Toggle current dropdown
+                if (isOpen) {
+                    dropdown.classList.remove("show");
+                    if (dropdownMenu) {
+                        dropdownMenu.style.display = "none";
+                        dropdownMenu.style.opacity = "0";
+                        dropdownMenu.style.visibility = "hidden";
+                        dropdownMenu.style.transform = "translateY(-10px)";
+                        dropdownMenu.style.margin = "0";
+                        dropdownMenu.style.padding = "0";
+                        dropdownMenu.style.height = "0";
+                        dropdownMenu.style.overflow = "hidden";
+                    }
+                } else {
+                    dropdown.classList.add("show");
+                    if (dropdownMenu) {
+                        dropdownMenu.style.display = "block";
+                        dropdownMenu.style.opacity = "1";
+                        dropdownMenu.style.visibility = "visible";
+                        dropdownMenu.style.transform = "translateY(0)";
+                        dropdownMenu.style.margin = "";
+                        dropdownMenu.style.padding = "";
+                        dropdownMenu.style.height = "";
+                        dropdownMenu.style.overflow = "";
+                    }
                 }
             }
         });
-    }
-
-    // Adjust carousel height based on screen size
-    function adjustCarouselHeight() {
-        const carouselItems = document.querySelectorAll(
-            ".hero-section .carousel-item"
-        );
-        const isMobile = window.innerWidth < 768;
-        const isSmallMobile = window.innerWidth < 576;
-        const isVerySmallMobile = window.innerWidth < 400;
-
-        let height = "100vh";
-        let minHeight = "700px";
-
-        if (isMobile) {
-            height = "80vh";
-            minHeight = "600px";
-        }
-
-        if (isSmallMobile) {
-            height = "70vh";
-            minHeight = "500px";
-        }
-
-        if (isVerySmallMobile) {
-            height = "60vh";
-            minHeight = "450px";
-        }
-
-        carouselItems.forEach((item) => {
-            item.style.height = height;
-            item.style.minHeight = minHeight;
-        });
-
-        const heroSection = document.querySelector(".hero-section");
-        if (heroSection) {
-            heroSection.style.height = height;
-            heroSection.style.minHeight = minHeight;
-        }
-    }
-
-    // Run adjustments on load and resize
-    adjustCarouselCaption();
-    adjustCarouselHeight();
-
-    window.addEventListener("resize", function () {
-        adjustCarouselCaption();
-        adjustCarouselHeight();
     });
+
+    // // Close dropdowns when clicking outside
+    // document.addEventListener("click", function (event) {
+    //     if (window.innerWidth <= 991.98) {
+    //         const dropdowns = document.querySelectorAll(".dropdown.show");
+    //         dropdowns.forEach((dropdown) => {
+    //             if (!dropdown.contains(event.target)) {
+    //                 dropdown.classList.remove("show");
+    //                 const dropdownMenu =
+    //                     dropdown.querySelector(".dropdown-menu");
+    //                 if (dropdownMenu) {
+    //                     dropdownMenu.style.display = "none";
+    //                     dropdownMenu.style.opacity = "0";
+    //                     dropdownMenu.style.visibility = "hidden";
+    //                     dropdownMenu.style.transform = "translateY(-10px)";
+    //                     dropdownMenu.style.margin = "0";
+    //                     dropdownMenu.style.padding = "0";
+    //                     dropdownMenu.style.height = "0";
+    //                     dropdownMenu.style.overflow = "hidden";
+    //                 }
+    //             }
+    //         });
+    //     }
+    // });
+
+    // Prevent dropdown hover on mobile
+    if (window.innerWidth <= 991.98) {
+        const dropdowns = document.querySelectorAll(".dropdown");
+        dropdowns.forEach((dropdown) => {
+            dropdown.addEventListener("mouseenter", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+        });
+    }
+
+    // // Handle window resize
+    // window.addEventListener("resize", function () {
+    //     if (window.innerWidth > 991.98) {
+    //         // Reset mobile menu state on desktop
+    //         body.classList.remove("navbar-open");
+    //         document.querySelectorAll(".dropdown.show").forEach((dropdown) => {
+    //             dropdown.classList.remove("show");
+    //             const dropdownMenu = dropdown.querySelector(".dropdown-menu");
+    //             if (dropdownMenu) {
+    //                 dropdownMenu.style.display = "";
+    //                 dropdownMenu.style.opacity = "";
+    //                 dropdownMenu.style.visibility = "";
+    //                 dropdownMenu.style.transform = "";
+    //                 dropdownMenu.style.margin = "";
+    //                 dropdownMenu.style.padding = "";
+    //                 dropdownMenu.style.height = "";
+    //                 dropdownMenu.style.overflow = "";
+    //             }
+    //         });
+    //     }
+    // });
 
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -206,9 +258,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
 
                 // Close mobile menu if open
-                const navbarToggler = document.querySelector(".navbar-toggler");
-                const navbarCollapse =
-                    document.querySelector(".navbar-collapse");
                 if (
                     navbarCollapse &&
                     navbarCollapse.classList.contains("show")

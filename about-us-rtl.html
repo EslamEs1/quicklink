@@ -1,749 +1,1006 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>من نحن - كويك لينك</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Tajawal:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Bootstrap 5 CSS -->
+        <link
+            href="vendor/bootstrap/css/bootstrap.rtl.min.css"
+            rel="stylesheet"
+        />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- RTL CSS -->
+        <link rel="stylesheet" href="css/style-rtl.css" />
+        <!-- Responsive Fixes -->
+        <link rel="stylesheet" href="css/responsive-fixes.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>من نحن - كويك لينك</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Tajawal:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- Bootstrap 5 CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- RTL CSS -->
-    <link rel="stylesheet" href="css/style-rtl.css" />
-    <!-- Responsive Fixes -->
-    <link rel="stylesheet" href="css/responsive-fixes.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
-</head>
-
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand me-5" href="#">
-                <img src="img/logo/logo.png" alt="شعار كويك لينك" height="40" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index-rtl.html">الرئيسية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us-rtl.html">من نحن</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            الخدمات
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-animate" aria-labelledby="servicesDropdown">
-                            <li>
-                                <a class="dropdown-item" href="services-rtl.html">جميع الخدمات</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">
-                                    المستندات القانونية
-                                </h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-power-of-attorney-rtl.html">الوكالة القانونية</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-company-establishment-rtl.html">تأسيس الشركات</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-legal-notice-rtl.html">الإنذار العدلي</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">
-                                    الشهادات والترجمة
-                                </h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-legal-translation-rtl.html">الترجمة القانونية</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-no-objection-rtl.html">شهادة عدم ممانعة</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-true-copy-rtl.html">صورة طبق الأصل</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-document-attestation-rtl.html">تصديق المستندات</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-declarations-rtl.html">الإقرارات القانونية</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">خدمات خاصة</h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-will-rtl.html">خدمات الوصية</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-golden-visa-rtl.html">الإقامة الذهبية</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="consultation-booking-rtl.html">احجز استشارة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="order-now-rtl.html">اطلب الآن</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq-rtl.html">الأسئلة الشائعة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-rtl.html">اتصل بنا</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary" href="about-us.html">English</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- قسم الهيرو -->
-    <section class="about-hero-section py-5 position-relative text-white" style="
-                background: linear-gradient(
-                    135deg,
-                    var(--primary-color) 0%,
-                    var(--secondary-color) 100%
-                );
-                padding-top: 120px !important;
-                padding-bottom: 80px !important;
-            ">
-        <div class="container position-relative z-2">
-            <div class="row align-items-center">
-                <div class="col-lg-7 text-lg-start text-center">
-                    <span class="badge bg-white bg-opacity-20 text-dark px-3 py-2 mb-3 animate-on-scroll shadow">من
-                        نحن</span>
-                    <h1 class="display-4 fw-bold mb-3 animate-on-scroll">
-                        شريكك الموثوق للخدمات القانونية في الإمارات
-                    </h1>
-                    <p class="lead mb-4 animate-on-scroll">
-                        كويك لينك هي شركة رائدة في الخدمات القانونية في
-                        الإمارات، متخصصة في خدمات الكاتب العدل والمصادقة على
-                        المستندات والحلول القانونية الشاملة. نحن نربط بين
-                        الإجراءات القانونية المعقدة وتقديم الخدمات السهلة
-                        والفعالة.
-                    </p>
-                    <div class="d-flex gap-3 justify-content-lg-start justify-content-center mb-4">
-                        <a href="#mission-vision"
-                            class="btn btn-lg btn-light rounded-pill px-5 shadow animate-on-scroll">مهمتنا <i
-                                class="fas fa-arrow-left me-2"></i></a>
-                        <a href="contact-rtl.html"
-                            class="btn btn-lg btn-outline-light rounded-pill px-5 shadow animate-on-scroll">اتصل بنا</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 text-center mb-4 mb-lg-0">
-                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                        alt="فريق كويك لينك" class="img-fluid rounded-4 shadow-lg animate-on-scroll"
-                        style="max-height: 400px; object-fit: cover" />
-                </div>
-            </div>
-        </div>
-        <svg class="position-absolute bottom-0 start-0 w-100" style="opacity: 0.1; pointer-events: none; z-index: 1"
-            viewBox="0 0 1440 320">
-            <path fill="#fff" fill-opacity="1"
-                d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,197.3C672,224,768,224,864,197.3C960,171,1056,117,1152,128C1248,139,1344,213,1392,250.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-
-    <!-- إحصائيات سريعة -->
-    <section class="quick-stats-section py-4 bg-white position-relative">
-        <div class="container">
-            <div class="row g-3">
-                <div class="col-md-3 col-6">
-                    <div class="quick-stats-card text-center p-3 rounded-3 shadow-sm border">
-                        <i class="fas fa-users text-primary fs-2 mb-2"></i>
-                        <h3 class="fw-bold mb-1 text-primary">500+</h3>
-                        <p class="small text-muted mb-0">عميل سعيد</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="quick-stats-card text-center p-3 rounded-3 shadow-sm border">
-                        <i class="fas fa-file-contract text-success fs-2 mb-2"></i>
-                        <h3 class="fw-bold mb-1 text-success">1000+</h3>
-                        <p class="small text-muted mb-0">مستند معالج</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="quick-stats-card text-center p-3 rounded-3 shadow-sm border">
-                        <i class="fas fa-clock text-info fs-2 mb-2"></i>
-                        <h3 class="fw-bold mb-1 text-info">2 دقيقة</h3>
-                        <p class="small text-muted mb-0">وقت الاستجابة</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="quick-stats-card text-center p-3 rounded-3 shadow-sm border">
-                        <i class="fas fa-star text-warning fs-2 mb-2"></i>
-                        <h3 class="fw-bold mb-1 text-warning">4.9</h3>
-                        <p class="small text-muted mb-0">تقييم العملاء</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- نظرة عامة على الشركة -->
-    <section class="company-overview py-5 bg-light position-relative">
-        <div class="container position-relative z-2">
-            <div class="row align-items-center">
-                <div class="col-lg-6 text-lg-start text-center">
-                    <h2 class="fw-bold mb-3 animate-on-scroll">من نحن</h2>
-                    <p class="lead mb-4 animate-on-scroll">
-                        كويك لينك هي شركة خدمات قانونية رائدة تأسست في
-                        الإمارات، متخصصة في تقديم خدمات الكاتب العدل
-                        والمصادقة على المستندات الشاملة. فريقنا من المحترفين
-                        القانونيين ذوي الخبرة يضمن أن كل عميل يحصل على خدمة
-                        شخصية وفعالة وموثوقة.
-                    </p>
-                    <p class="lead mb-4 animate-on-scroll">
-                        نتخصص في خدمات التوكيل الشاملة بما في ذلك:
-                        <strong>وكالة الهبة</strong>،
-                        <strong>استلام الهبة</strong>، و<strong>وكالة الإرث</strong>
-                        - مما يضمن تلبية جميع احتياجاتك من المستندات
-                        القانونية بدقة وخبرة.
-                    </p>
-                    <div class="row g-3 mb-4">
-                        <div class="col-6">
-                            <div class="d-flex align-items-center justify-content-lg-start justify-content-center">
-                                <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>مرخص ومعتمد</span>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex align-items-center justify-content-lg-start justify-content-center">
-                                <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>دعم ثنائي اللغة</span>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex align-items-center justify-content-lg-start justify-content-center">
-                                <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>معالجة سريعة</span>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="d-flex align-items-center justify-content-lg-start justify-content-center">
-                                <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>دعم 24/7</span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#team" class="btn btn-primary rounded-pill px-4 shadow animate-on-scroll">تعرف على فريقنا
-                        <i class="fas fa-arrow-left me-2"></i></a>
-                </div>
-                <div class="col-lg-6 text-center mb-4 mb-lg-0">
-                    <img src="img/about-us.jpg"
-                        alt="مكتب كويك لينك" class="img-fluid rounded-4 shadow animate-on-scroll"
-                        style="max-height: 350px; object-fit: cover" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- المهمة والرؤية -->
-    <section id="mission-vision" class="mission-vision py-5 position-relative">
-        <div class="container position-relative z-2">
-            <div class="row mb-4">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="section-icon primary animate-on-scroll shadow mb-3">
-                        <i class="fas fa-bullseye"></i>
-                    </div>
-                    <h2 class="fw-bold mb-3 animate-on-scroll">
-                        مهمتنا ورؤيتنا
-                    </h2>
-                    <p class="text-muted mb-4 animate-on-scroll">
-                        نحن ملتزمون بتبسيط الإجراءات القانونية وتقديم خدمات
-                        سهلة وفعالة لعملائنا.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="mission-card p-4 p-md-5 bg-white rounded-4 shadow animate-on-scroll h-100">
-                        <div class="text-center mb-4">
-                            <div class="mission-icon bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
-                                style="width: 80px; height: 80px">
-                                <i class="fas fa-rocket text-primary fs-2"></i>
-                            </div>
-                            <h3 class="fw-bold mb-3">مهمتنا</h3>
-                        </div>
-                        <p class="lead mb-4">
-                            تقديم خدمات قانونية استثنائية تبسط الإجراءات
-                            المعقدة، مما يضمن حصول عملائنا على حلول مهنية
-                            وفعالة وموثوقة لجميع احتياجاتهم من خدمات الكاتب
-                            العدل والمصادقة على المستندات.
-                        </p>
-                        <ul class="list-unstyled">
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-primary me-2"></i>التميز المهني
-                            </li>
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-primary me-2"></i>رضا العملاء
-                            </li>
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-primary me-2"></i>تقديم الخدمة بكفاءة
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="vision-card p-4 p-md-5 bg-white rounded-4 shadow animate-on-scroll h-100">
-                        <div class="text-center mb-4">
-                            <div class="vision-icon bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
-                                style="width: 80px; height: 80px">
-                                <i class="fas fa-eye text-success fs-2"></i>
-                            </div>
-                            <h3 class="fw-bold mb-3">رؤيتنا</h3>
-                        </div>
-                        <p class="lead mb-4">
-                            أن نصبح الشركة الرائدة في تقديم الخدمات
-                            القانونية في الإمارات، معروفين بالابتكار
-                            والموثوقية والالتزام بجعل الإجراءات القانونية
-                            سهلة الوصول للجميع من خلال التكنولوجيا والخدمة
-                            الاستثنائية.
-                        </p>
-                        <ul class="list-unstyled">
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-success me-2"></i>الريادة في المجال
-                            </li>
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-success me-2"></i>الابتكار والتكنولوجيا
-                            </li>
-                            <li class="mb-2 d-flex align-items-center">
-                                <i class="fas fa-star text-success me-2"></i>سهولة الوصول للجميع
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- قسم الفريق -->
-    <section id="team" class="team-section py-5 bg-light position-relative">
-        <div class="container position-relative z-2">
-            <div class="row mb-4">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="section-icon primary animate-on-scroll shadow mb-3">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h2 class="fw-bold mb-3 animate-on-scroll">
-                        تعرف على فريقنا الخبير
-                    </h2>
-                    <p class="text-muted mb-4 animate-on-scroll">
-                        فريقنا المتفاني من المحترفين القانونيين ملتزم بتقديم
-                        أفضل تجربة خدمة لك.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-card text-center p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="team-avatar mb-3">
-                            <img src="img/our team/belal morsy.jpeg" alt="بيلال مرسي" class="img-fluid rounded-circle"
-                                style="
-                                        width: 120px;
-                                        height: 120px;
-                                        object-fit: cover;
-                                    " />
-                        </div>
-                        <h4 class="fw-bold mb-2">بيلال مرسي</h4>
-                        <p class="text-primary mb-3">المدير القانوني</p>
-                        <p class="text-muted small mb-3">
-                            أكثر من 15 عاماً من الخبرة في الخدمات القانونية
-                            الإماراتية وإجراءات الكاتب العدل.
-                        </p>
-                        <div class="team-social">
-                            <a href="#" class="text-muted me-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-muted me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-muted"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team-card text-center p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="team-avatar mb-3">
-                            <img src="img/our team/Ibrahim Khaled.jpeg" alt="إبراهيم خالد"
-                                class="img-fluid rounded-circle" style="
-                                        width: 120px;
-                                        height: 120px;
-                                        object-fit: cover;
-                                    " />
-                        </div>
-                        <h4 class="fw-bold mb-2">إبراهيم خالد</h4>
-                        <p class="text-primary mb-3">مستشار أعمال</p>
-                        <p class="text-muted small mb-3">
-                            متخصص في تأسيس الأعمال واستشارات الاستثمار
-                            الأجنبي.
-                        </p>
-                        <div class="team-social">
-                            <a href="#" class="text-muted me-2"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" class="text-muted me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="text-muted"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- التراخيص والشهادات -->
-    <section class="license-section py-5 position-relative">
-        <div class="container position-relative z-2">
-            <div class="row mb-4">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="section-icon primary animate-on-scroll shadow mb-3">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h2 class="fw-bold mb-3 animate-on-scroll">
-                        التراخيص والشهادات
-                    </h2>
-                    <p class="text-muted mb-4 animate-on-scroll">
-                        نحن نعمل بالامتثال القانوني الكامل ونحافظ على أعلى
-                        معايير الشهادات المهنية.
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="license-icon bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
-                                style="width: 60px; height: 60px">
-                                <i class="fas fa-shield-alt text-primary"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">
-                                    الترخيص القانوني الإماراتي
-                                </h5>
-                                <p class="text-muted small mb-0">
-                                    مرخص من وزارة العدل الإماراتية
-                                </p>
-                            </div>
-                        </div>
-                        <p class="text-muted">
-                            تفويض كامل لتقديم خدمات الكاتب العدل والمصادقة
-                            على المستندات القانونية في الإمارات.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="license-icon bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
-                                style="width: 60px; height: 60px">
-                                <i class="fas fa-award text-success"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">شهادة الأيزو</h5>
-                                <p class="text-muted small mb-0">
-                                    الأيزو 9001:2015 إدارة الجودة
-                                </p>
-                            </div>
-                        </div>
-                        <p class="text-muted">
-                            معتمد لأنظمة إدارة الجودة مما يضمن تقديم الخدمة
-                            بانتظام ورضا العملاء.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="license-icon bg-info bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
-                                style="width: 60px; height: 60px">
-                                <i class="fas fa-lock text-info"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">حماية البيانات</h5>
-                                <p class="text-muted small mb-0">
-                                    متوافق مع GDPR وحماية البيانات
-                                    الإماراتية
-                                </p>
-                            </div>
-                        </div>
-                        <p class="text-muted">
-                            امتثال كامل لقوانين حماية البيانات مما يضمن أمان
-                            وخصوصية معلومات العملاء.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="license-icon bg-warning bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
-                                style="width: 60px; height: 60px">
-                                <i class="fas fa-handshake text-warning"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-bold mb-1">
-                                    العضويات المهنية
-                                </h5>
-                                <p class="text-muted small mb-0">
-                                    جمعية المحترفين القانونيين الإماراتية
-                                </p>
-                            </div>
-                        </div>
-                        <p class="text-muted">
-                            عضوية نشطة في الجمعيات القانونية المهنية والحفاظ
-                            على أعلى المعايير الأخلاقية.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- قسم الدعوة لاتخاذ إجراء العصري -->
-    <section class="modern-cta-section py-5 position-relative text-center text-white" style="
-                background: linear-gradient(
-                    135deg,
-                    var(--primary-color) 0%,
-                    var(--secondary-color) 100%
-                );
-            ">
-        <div class="container position-relative z-2">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8">
-                    <h2 class="display-5 fw-bold mb-3 animate-on-scroll">
-                        جاهز للعمل معنا؟
-                    </h2>
-                    <p class="lead mb-4 animate-on-scroll">
-                        اختبر الفرق في العمل مع مزود خدمات قانونية موثوق
-                        ومهني. اتصل بنا اليوم للحصول على استشارة.
-                    </p>
-                    <a href="contact-rtl.html"
-                        class="btn btn-lg btn-light rounded-pill px-5 me-3 shadow animate-on-scroll">اتصل بنا <i
-                            class="fas fa-arrow-left me-2"></i></a>
-                    <a href="services-rtl.html"
-                        class="btn btn-lg btn-outline-light rounded-pill px-5 shadow animate-on-scroll">خدماتنا <i
-                            class="fas fa-briefcase me-2"></i></a>
-                </div>
-            </div>
-        </div>
-        <svg class="position-absolute top-0 start-0 w-100 h-100" style="opacity: 0.1; pointer-events: none; z-index: 1"
-            viewBox="0 0 1440 320">
-            <path fill="#fff" fill-opacity="1"
-                d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,197.3C672,224,768,224,864,197.3C960,171,1056,117,1152,128C1248,139,1344,213,1392,250.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-5">
-        <div class="container">
-            <div class="row g-4">
-                <!-- Logo Section -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-logo mb-4">
-                        <img src="img/logo/logo.png" alt="شعار كويك لينك" height="50" class="mb-3" />
-                        <p class="mb-3">
-                            خدمات التوثيق والمستندات الاحترافية في جميع
-                            أنحاء الإمارات.
-                        </p>
-                        <div class="social-links">
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                            <a href="#" class="text-white fs-5">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quick Links Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">روابط سريعة</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="index-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الرئيسية
-                            </a>
+    <body>
+        <!-- Navigation -->
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+        >
+            <div class="container">
+                <a class="navbar-brand me-5" href="#">
+                    <img
+                        src="img/logo/logo.png"
+                        alt="شعار كويك لينك"
+                        height="40"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index-rtl.html"
+                                >الرئيسية</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="about-us-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>من
-                                نحن
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us-rtl.html"
+                                >من نحن</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="services-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>جميع
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="servicesDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
                                 الخدمات
                             </a>
+                            <ul
+                                class="dropdown-menu dropdown-menu-animate"
+                                aria-labelledby="servicesDropdown"
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="services-rtl.html"
+                                        >جميع الخدمات</a
+                                    >
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        المستندات القانونية
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-power-of-attorney-rtl.html"
+                                        >الوكالة القانونية</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-company-establishment-rtl.html"
+                                        >تأسيس الشركات</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-legal-notice-rtl.html"
+                                        >الإنذار العدلي</a
+                                    >
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        الشهادات والترجمة
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-legal-translation-rtl.html"
+                                        >الترجمة القانونية</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-no-objection-rtl.html"
+                                        >شهادة عدم ممانعة</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-true-copy-rtl.html"
+                                        >صورة طبق الأصل</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-document-attestation-rtl.html"
+                                        >تصديق المستندات</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-declarations-rtl.html"
+                                        >الإقرارات القانونية</a
+                                    >
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">خدمات خاصة</h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-will-rtl.html"
+                                        >خدمات الوصية</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-golden-visa-rtl.html"
+                                        >الإقامة الذهبية</a
+                                    >
+                                </li>
+                            </ul>
                         </li>
-                        <li class="mb-2">
-                            <a href="consultation-booking-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>احجز
-                                استشارة
-                            </a>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                href="consultation-booking-rtl.html"
+                                >احجز استشارة</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="order-now-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>اطلب
-                                الآن
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="order-now-rtl.html"
+                                >اطلب الآن</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="faq-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الأسئلة الشائعة
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq-rtl.html"
+                                >الأسئلة الشائعة</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="contact-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>اتصل
-                                بنا
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-rtl.html"
+                                >اتصل بنا</a
+                            >
+                        </li>
+                        <li class="nav-item me-2">
+                            <a
+                                class="btn btn-outline-primary"
+                                href="about-us.html"
+                                >English</a
+                            >
                         </li>
                     </ul>
                 </div>
+            </div>
+        </nav>
 
-                <!-- Services Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">الخدمات</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="service-power-of-attorney-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الوكالة القانونية
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-company-establishment-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>تأسيس الشركات
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-legal-notice-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الإنذار العدلي
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-legal-translation-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الترجمة القانونية
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-no-objection-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>شهادة عدم ممانعة
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-true-copy-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>صورة
-                                طبق الأصل
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-will-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>خدمات الوصية
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-golden-visa-rtl.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-left me-2"></i>الإقامة الذهبية
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Contact Us Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">اتصل بنا</h5>
-                    <div class="contact-info">
-                        <div class="mb-3">
-                            <i class="fas fa-phone me-2 text-primary"></i>
-                            <span>+971 54 248 5508</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-phone me-2 text-primary"></i>
-                            <span>+971 50 592 1317</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-envelope me-2 text-primary"></i>
-                            <span>quicklink0@outlook.com</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-envelope me-2 text-primary"></i>
-                            <span>quiklink2025@gmail.com</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-map-marker-alt me-2 text-primary"></i>
-                            <span>الإمارات - جميع الإمارات</span>
+        <!-- Hero Section -->
+        <section class="about-hero-section py-5 position-relative text-white">
+            <div class="container position-relative z-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <span
+                            class="badge bg-white bg-opacity-20 text-dark px-3 py-2 mb-3 animate-on-scroll shadow"
+                            >عن كويك لينك</span
+                        >
+                        <h1 class="display-4 fw-bold mb-3 animate-on-scroll">
+                            شريكك الموثوق لخدمات قانونية في الإمارات
+                        </h1>
+                        <p class="lead mb-4 animate-on-scroll">
+                            كويك لينك هي شركة رائدة في الخدمات القانونية في
+                            الإمارات، متخصصة في خدمات كاتب العدل، مصادقة
+                            المستندات، والحلول القانونية الشاملة. نحن نربط
+                            الفجوة بين الإجراءات القانونية المعقدة وتقديم الخدمة
+                            الفعالة والمتاحة.
+                        </p>
+                        <div
+                            class="d-flex gap-3 mb-4 flex-wrap justify-content-center justify-content-lg-start"
+                        >
+                            <a
+                                href="#mission-vision"
+                                class="btn btn-lg btn-light rounded-pill px-5 shadow animate-on-scroll"
+                                >مهمتنا <i class="fas fa-arrow-left ms-2"></i
+                            ></a>
+                            <a
+                                href="contact-rtl.html"
+                                class="btn btn-lg btn-outline-light rounded-pill px-5 shadow animate-on-scroll"
+                                >اتصل بنا</a
+                            >
                         </div>
                     </div>
-                    <div class="mt-3">
-                        <a href="contact-rtl.html" class="btn btn-outline-light btn-sm">
-                            تواصل معنا
+                    <div class="col-lg-5 text-center">
+                        <img
+                            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="فريق كويك لينك"
+                            class="img-fluid rounded-4 shadow-lg animate-on-scroll"
+                        />
+                    </div>
+                </div>
+            </div>
+            <svg
+                class="position-absolute bottom-0 start-0 w-100"
+                viewBox="0 0 1440 320"
+            >
+                <path
+                    fill="#fff"
+                    fill-opacity="1"
+                    d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,197.3C672,224,768,224,864,197.3C960,171,1056,117,1152,128C1248,139,1344,213,1392,250.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                ></path>
+            </svg>
+        </section>
+
+        <!-- Quick Stats -->
+        <section class="quick-stats-section py-4 bg-white position-relative">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-3 col-6">
+                        <div
+                            class="quick-stats-card text-center p-3 rounded-3 shadow-sm border h-100"
+                        >
+                            <i class="fas fa-users text-primary fs-2 mb-2"></i>
+                            <h3 class="fw-bold mb-1 text-primary">+500</h3>
+                            <p class="small text-muted mb-0">عميل سعيد</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div
+                            class="quick-stats-card text-center p-3 rounded-3 shadow-sm border h-100"
+                        >
+                            <i
+                                class="fas fa-file-contract text-success fs-2 mb-2"
+                            ></i>
+                            <h3 class="fw-bold mb-1 text-success">+1000</h3>
+                            <p class="small text-muted mb-0">
+                                مستند تمت معالجته
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div
+                            class="quick-stats-card text-center p-3 rounded-3 shadow-sm border h-100"
+                        >
+                            <i class="fas fa-clock text-info fs-2 mb-2"></i>
+                            <h3 class="fw-bold mb-1 text-info">دقيقتان</h3>
+                            <p class="small text-muted mb-0">وقت الاستجابة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div
+                            class="quick-stats-card text-center p-3 rounded-3 shadow-sm border h-100"
+                        >
+                            <i class="fas fa-star text-warning fs-2 mb-2"></i>
+                            <h3 class="fw-bold mb-1 text-warning">4.9</h3>
+                            <p class="small text-muted mb-0">تقييم العملاء</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Overview -->
+        <section
+            class="company-overview about-company-overview py-5 bg-light position-relative"
+        >
+            <div class="container position-relative z-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h2 class="fw-bold mb-3 animate-on-scroll">من نحن</h2>
+                        <p class="lead mb-4 animate-on-scroll">
+                            كويك لينك هي شركة خدمات قانونية رائدة تأسست في
+                            الإمارات، مكرسة لتقديم خدمات كاتب العدل الشاملة
+                            ومصادقة المستندات. فريقنا من المحترفين القانونيين
+                            ذوي الخبرة يضمن أن كل عميل يتلقى خدمة شخصية وفعالة
+                            وموثوقة.
+                        </p>
+                        <p class="lead mb-4 animate-on-scroll">
+                            نحن متخصصون في خدمات الوكالة العامة الشاملة بما في
+                            ذلك:
+                            <strong>وكالة هبة</strong>،
+                            <strong>استلام الهبة</strong>، و
+                            <strong>وكالة إرث</strong> - مما يضمن تلبية جميع
+                            احتياجاتك من التوثيق القانوني بدقة وخبرة.
+                        </p>
+                        <div class="row g-3 mb-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <i
+                                        class="fas fa-check-circle text-success me-2"
+                                    ></i>
+                                    <span>مرخص ومعتمد</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <i
+                                        class="fas fa-check-circle text-success me-2"
+                                    ></i>
+                                    <span>دعم ثنائي اللغة</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <i
+                                        class="fas fa-check-circle text-success me-2"
+                                    ></i>
+                                    <span>معالجة سريعة</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <i
+                                        class="fas fa-check-circle text-success me-2"
+                                    ></i>
+                                    <span>دعم 24/7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            href="#team"
+                            class="btn btn-primary rounded-pill px-4 shadow animate-on-scroll"
+                            >تعرف على فريقنا
+                            <i class="fas fa-arrow-left ms-2"></i
+                        ></a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img
+                            src="img/about-us.jpg"
+                            alt="مكتب كويك لينك"
+                            class="img-fluid rounded-4 shadow animate-on-scroll"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section
+            id="mission-vision"
+            class="mission-vision py-5 position-relative"
+        >
+            <div class="container position-relative z-2">
+                <div class="row mb-4">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div
+                            class="section-icon primary animate-on-scroll shadow mb-3"
+                        >
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h2 class="fw-bold mb-3 animate-on-scroll">
+                            مهمتنا ورؤيتنا
+                        </h2>
+                        <p class="text-muted mb-4 animate-on-scroll">
+                            نحن ملتزمون بتبسيط الإجراءات القانونية وتقديم خدمات
+                            متاحة وفعالة لعملائنا.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div
+                            class="mission-card p-4 p-md-5 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="text-center mb-4">
+                                <div
+                                    class="mission-icon bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3 about-mission-icon"
+                                >
+                                    <i
+                                        class="fas fa-rocket text-primary fs-2"
+                                    ></i>
+                                </div>
+                                <h3 class="fw-bold mb-3">مهمتنا</h3>
+                            </div>
+                            <p class="lead mb-4">
+                                تقديم خدمات قانونية استثنائية تبسط الإجراءات
+                                المعقدة، مما يضمن لعملائنا الحصول على حلول مهنية
+                                وفعالة وموثوقة لجميع احتياجاتهم من كاتب العدل
+                                ومصادقة المستندات.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-primary me-2"></i
+                                    >التميز المهني
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-primary me-2"></i
+                                    >رضا العملاء
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-primary me-2"></i
+                                    >تقديم الخدمة بكفاءة
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="vision-card p-4 p-md-5 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="text-center mb-4">
+                                <div
+                                    class="vision-icon bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3 about-vision-icon"
+                                >
+                                    <i class="fas fa-eye text-success fs-2"></i>
+                                </div>
+                                <h3 class="fw-bold mb-3">رؤيتنا</h3>
+                            </div>
+                            <p class="lead mb-4">
+                                أن نصبح المزود الرائد للخدمات القانونية في
+                                الإمارات، معروفين بالابتكار والموثوقية والالتزام
+                                بجعل الإجراءات القانونية متاحة للجميع من خلال
+                                التكنولوجيا والخدمة الاستثنائية.
+                            </p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-success me-2"></i
+                                    >القيادة في الصناعة
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-success me-2"></i
+                                    >الابتكار والتكنولوجيا
+                                </li>
+                                <li class="mb-2 d-flex align-items-center">
+                                    <i class="fas fa-star text-success me-2"></i
+                                    >إمكانية الوصول للجميع
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section py-5 bg-light position-relative">
+            <div class="container position-relative z-2">
+                <div class="row mb-4">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div
+                            class="section-icon primary animate-on-scroll shadow mb-3"
+                        >
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h2 class="fw-bold mb-3 animate-on-scroll">
+                            تعرف على فريقنا الخبير
+                        </h2>
+                        <p class="text-muted mb-4 animate-on-scroll">
+                            فريقنا المتفاني من المحترفين القانونيين ملتزم بتقديم
+                            أفضل تجربة خدمة لك.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="team-card text-center p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="team-avatar mb-3">
+                                <img
+                                    src="img/our team/belal morsy.jpeg"
+                                    alt="بلال مرسي"
+                                    class="img-fluid rounded-circle about-team-avatar"
+                                />
+                            </div>
+                            <h4 class="fw-bold mb-2">بلال مرسي</h4>
+                            <p class="text-primary mb-3">مدير قانوني</p>
+                            <p class="text-muted small mb-3">
+                                أكثر من 15 عاماً من الخبرة في الخدمات القانونية
+                                الإماراتية وإجراءات كاتب العدل.
+                            </p>
+                            <div class="team-social">
+                                <a href="#" class="text-muted me-2"
+                                    ><i class="fab fa-linkedin"></i
+                                ></a>
+                                <a href="#" class="text-muted me-2"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                                <a href="#" class="text-muted"
+                                    ><i class="fas fa-envelope"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div
+                            class="team-card text-center p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="team-avatar mb-3">
+                                <img
+                                    src="img/our team/Ibrahim Khaled.jpeg"
+                                    alt="إبراهيم خالد"
+                                    class="img-fluid rounded-circle about-team-avatar"
+                                />
+                            </div>
+                            <h4 class="fw-bold mb-2">إبراهيم خالد</h4>
+                            <p class="text-primary mb-3">مستشار أعمال</p>
+                            <p class="text-muted small mb-3">
+                                متخصص في إعداد الأعمال والاستشارات الاستثمارية
+                                الأجنبية.
+                            </p>
+                            <div class="team-social">
+                                <a href="#" class="text-muted me-2"
+                                    ><i class="fab fa-linkedin"></i
+                                ></a>
+                                <a href="#" class="text-muted me-2"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                                <a href="#" class="text-muted"
+                                    ><i class="fas fa-envelope"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- License & Certifications -->
+        <section class="license-section py-5 position-relative">
+            <div class="container position-relative z-2">
+                <div class="row mb-4">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div
+                            class="section-icon primary animate-on-scroll shadow mb-3"
+                        >
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h2 class="fw-bold mb-3 animate-on-scroll">
+                            التراخيص والشهادات
+                        </h2>
+                        <p class="text-muted mb-4 animate-on-scroll">
+                            نحن نعمل بالامتثال القانوني الكامل ونحافظ على أعلى
+                            معايير الشهادات المهنية.
+                        </p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div
+                            class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="d-flex align-items-center mb-3">
+                                <div
+                                    class="license-icon bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3 about-license-icon"
+                                >
+                                    <i
+                                        class="fas fa-shield-alt text-primary"
+                                    ></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">
+                                        ترخيص قانوني إماراتي
+                                    </h5>
+                                    <p class="text-muted small mb-0">
+                                        مرخص من وزارة العدل الإماراتية
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                تفويض كامل لتقديم خدمات كاتب العدل ومصادقة
+                                المستندات القانونية في الإمارات.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="d-flex align-items-center mb-3">
+                                <div
+                                    class="license-icon bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3 about-license-icon"
+                                >
+                                    <i class="fas fa-award text-success"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">شهادة الأيزو</h5>
+                                    <p class="text-muted small mb-0">
+                                        الأيزو 9001:2015 إدارة الجودة
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                معتمد لأنظمة إدارة الجودة مما يضمن تقديم الخدمة
+                                بشكل متسق ورضا العملاء.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="d-flex align-items-center mb-3">
+                                <div
+                                    class="license-icon bg-info bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3 about-license-icon"
+                                >
+                                    <i class="fas fa-lock text-info"></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">حماية البيانات</h5>
+                                    <p class="text-muted small mb-0">
+                                        متوافق مع GDPR وحماية البيانات
+                                        الإماراتية
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                امتثال كامل لتنظيمات حماية البيانات مما يضمن
+                                أمان وخصوصية معلومات العملاء.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="license-card p-4 bg-white rounded-4 shadow animate-on-scroll h-100"
+                        >
+                            <div class="d-flex align-items-center mb-3">
+                                <div
+                                    class="license-icon bg-warning bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3 about-license-icon"
+                                >
+                                    <i
+                                        class="fas fa-handshake text-warning"
+                                    ></i>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold mb-1">
+                                        العضويات المهنية
+                                    </h5>
+                                    <p class="text-muted small mb-0">
+                                        جمعية المحترفين القانونيين الإماراتية
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                عضوية نشطة في الجمعيات القانونية المهنية والحفاظ
+                                على أعلى المعايير الأخلاقية.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modern CTA Section -->
+        <section
+            class="modern-cta-section about-cta-section py-5 position-relative text-center text-white"
+        >
+            <div class="container position-relative z-2">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8">
+                        <h2 class="display-5 fw-bold mb-3 animate-on-scroll">
+                            مستعد للعمل معنا؟
+                        </h2>
+                        <p class="lead mb-4 animate-on-scroll">
+                            اختبر الفرق في العمل مع مزود خدمات قانونية موثوق
+                            ومهني. اتصل بنا اليوم للحصول على استشارة.
+                        </p>
+                        <div
+                            class="d-flex gap-3 justify-content-center flex-wrap"
+                        >
+                            <a
+                                href="contact-rtl.html"
+                                class="btn btn-lg btn-light rounded-pill px-5 shadow animate-on-scroll"
+                                >اتصل بنا <i class="fas fa-arrow-left ms-2"></i
+                            ></a>
+                            <a
+                                href="services-rtl.html"
+                                class="btn btn-lg btn-outline-light rounded-pill px-5 shadow animate-on-scroll"
+                                >خدماتنا <i class="fas fa-briefcase ms-2"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg
+                class="position-absolute top-0 start-0 w-100 h-100"
+                viewBox="0 0 1440 320"
+            >
+                <path
+                    fill="#fff"
+                    fill-opacity="1"
+                    d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,197.3C672,224,768,224,864,197.3C960,171,1056,117,1152,128C1248,139,1344,213,1392,250.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                ></path>
+            </svg>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Logo Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-logo mb-4">
+                            <img
+                                src="img/logo/logo.png"
+                                alt="شعار كويك لينك"
+                                height="50"
+                                class="mb-3"
+                            />
+                            <p class="mb-3">
+                                خدمات التوثيق والمستندات الاحترافية في جميع
+                                أنحاء الإمارات.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="text-white fs-5">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">روابط سريعة</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="index-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الرئيسية
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="about-us-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>من
+                                    نحن
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="services-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>جميع
+                                    الخدمات
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="consultation-booking-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>احجز
+                                    استشارة
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="order-now-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>اطلب
+                                    الآن
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="faq-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الأسئلة الشائعة
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="contact-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>اتصل
+                                    بنا
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Services Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">الخدمات</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="service-power-of-attorney-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الوكالة القانونية
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-company-establishment-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >تأسيس الشركات
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-legal-notice-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الإنذار العدلي
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-legal-translation-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الترجمة القانونية
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-no-objection-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >شهادة عدم ممانعة
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-true-copy-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i>صورة
+                                    طبق الأصل
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-will-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >خدمات الوصية
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-golden-visa-rtl.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-left me-2"></i
+                                    >الإقامة الذهبية
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Us Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">اتصل بنا</h5>
+                        <div class="contact-info">
+                            <div class="mb-3">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <span>+971 54 248 5508</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <span>+971 50 592 1317</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-envelope me-2 text-primary"
+                                ></i>
+                                <span>quicklink0@outlook.com</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-envelope me-2 text-primary"
+                                ></i>
+                                <span>quiklink2025@gmail.com</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-map-marker-alt me-2 text-primary"
+                                ></i>
+                                <span>الإمارات - جميع الإمارات</span>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <a
+                                href="contact-rtl.html"
+                                class="btn btn-outline-light btn-sm"
+                            >
+                                تواصل معنا
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4" />
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0 small">
+                            &copy; 2024 كويك لينك. جميع الحقوق محفوظة.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a
+                            href="about-us.html"
+                            class="btn btn-outline-light btn-sm"
+                        >
+                            English
                         </a>
                     </div>
                 </div>
             </div>
-            <hr class="my-4" />
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p class="mb-0 small">
-                        &copy; 2024 كويك لينك. جميع الحقوق محفوظة.
-                    </p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="about-us.html" class="btn btn-outline-light btn-sm">
-                        English
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/971542485508" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+        <!-- WhatsApp Float -->
+        <a
+            href="https://wa.me/971542485508"
+            class="whatsapp-float"
+            target="_blank"
+        >
+            <i class="fab fa-whatsapp"></i>
+        </a>
 
-    <!-- Call Float -->
-    <a href="tel:+971542485508" class="call-float">
-        <i class="fas fa-phone"></i>
-    </a>
+        <!-- Call Float -->
+        <a href="tel:+971542485508" class="call-float">
+            <i class="fas fa-phone"></i>
+        </a>
 
-    <!-- Bootstrap 5 JS Bundle with Popper -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-    <!-- Responsive JS -->
-    <script src="js/responsive.js"></script>
-</body>
-
+        <!-- Bootstrap 5 JS Bundle with Popper -->
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+        <!-- Responsive JS -->
+        <script src="js/responsive.js"></script>
+    </body>
 </html>

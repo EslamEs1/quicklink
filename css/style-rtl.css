@@ -874,3 +874,3125 @@ html {
         text-align: center;
     }
 } 
+
+/* RTL Service Hero Section - Inline Style Replacement */
+html[dir="rtl"] .service-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .service-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .modern-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .service-hero-section svg,
+html[dir="rtl"] .modern-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .modern-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .service-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL Responsive adjustments for hero image */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .service-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .service-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .service-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .service-details-section .img-fluid {
+    max-height: 240px;
+  }
+
+  
+} 
+
+/* RTL Golden Visa Service Hero Section - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL Golden Visa Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL Golden Visa Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL Golden Visa Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL Golden Visa SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-hero-section svg,
+html[dir="rtl"] .golden-visa-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Golden Visa Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .golden-visa-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL Responsive adjustments for Golden Visa images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .golden-visa-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .golden-visa-details-section .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* RTL Service Declarations Hero Section - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL Service Declarations Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL Service Declarations Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL Service Declarations Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL Service Declarations SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-hero-section svg,
+html[dir="rtl"] .service-declarations-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Service Declarations Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .service-declarations-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL Responsive adjustments for Service Declarations images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .service-declarations-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .service-declarations-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* RTL About Us Hero Section - Inline Style Replacement */
+html[dir="rtl"] .about-hero-section {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL About Us Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .about-hero-section .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* RTL About Us Company Overview Image - Inline Style Replacement */
+html[dir="rtl"] .about-company-overview .img-fluid {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* RTL About Us Mission/Vision Icons - Inline Style Replacement */
+html[dir="rtl"] .about-mission-icon,
+html[dir="rtl"] .about-vision-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* RTL About Us Team Avatar Images - Inline Style Replacement */
+html[dir="rtl"] .about-team-avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* RTL About Us License Icons - Inline Style Replacement */
+html[dir="rtl"] .about-license-icon {
+  width: 60px;
+  height: 60px;
+}
+
+/* RTL About Us Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .about-cta-section {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
+}
+
+/* RTL About Us SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .about-hero-section svg,
+html[dir="rtl"] .about-cta-section svg {
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Responsive adjustments for about us images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    max-height: 320px;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* RTL Document Attestation Service Hero Section - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL Document Attestation Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL Document Attestation Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL Document Attestation Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL Document Attestation SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-hero-section svg,
+html[dir="rtl"] .document-attestation-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Document Attestation Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .document-attestation-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL True Copy Service Hero Section - Inline Style Replacement */
+html[dir="rtl"] .true-copy-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL True Copy Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .true-copy-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL True Copy Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .true-copy-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL True Copy Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .true-copy-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL True Copy SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .true-copy-hero-section svg,
+html[dir="rtl"] .true-copy-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL True Copy Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .true-copy-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL Responsive adjustments for Document Attestation images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .document-attestation-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .document-attestation-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* RTL Responsive adjustments for True Copy images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .true-copy-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .true-copy-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .true-copy-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .true-copy-details-section .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* RTL No Objection Service Hero Section - Inline Style Replacement */
+html[dir="rtl"] .no-objection-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* RTL No Objection Hero Image Styles - Inline Style Replacement */
+html[dir="rtl"] .no-objection-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* RTL No Objection Service Details Section Image - Inline Style Replacement */
+html[dir="rtl"] .no-objection-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* RTL No Objection Modern CTA Section - Inline Style Replacement */
+html[dir="rtl"] .no-objection-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* RTL No Objection SVG Decorative Elements - Inline Style Replacement */
+html[dir="rtl"] .no-objection-hero-section svg,
+html[dir="rtl"] .no-objection-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL No Objection Request Form Styles - Inline Style Replacement */
+html[dir="rtl"] .no-objection-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* RTL Responsive adjustments for No Objection images */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .no-objection-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  html[dir="rtl"] .no-objection-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .no-objection-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  html[dir="rtl"] .no-objection-details-section .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* Legal Notice Service RTL Styles */
+.legal-notice-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.legal-notice-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.legal-notice-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.legal-notice-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+.legal-notice-hero-section svg,
+.legal-notice-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.legal-notice-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Company Establishment Service RTL Styles */
+.company-establishment-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.company-establishment-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.company-establishment-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.company-establishment-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+.company-establishment-hero-section svg,
+.company-establishment-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.company-establishment-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for RTL service pages */
+@media (max-width: 767.98px) {
+  .legal-notice-hero-section .img-fluid,
+  .company-establishment-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .legal-notice-details-section .img-fluid,
+  .company-establishment-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .legal-notice-hero-section .img-fluid,
+  .company-establishment-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .legal-notice-details-section .img-fluid,
+  .company-establishment-details-section .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* Power of Attorney Service RTL Styles */
+.power-of-attorney-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.power-of-attorney-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.power-of-attorney-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.power-of-attorney-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+.power-of-attorney-hero-section svg,
+.power-of-attorney-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.power-of-attorney-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Consultation Booking RTL Styles */
+.consultation-success-icon {
+  font-size: 4rem;
+}
+
+.consultation-form-nav {
+  display: none;
+}
+
+.consultation-form-nav.show {
+  display: inline-block;
+}
+
+/* Responsive adjustments for RTL Power of Attorney images */
+@media (max-width: 767.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    max-height: 240px;
+  }
+} 
+
+/* Contact Service RTL Styles */
+.contact-hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.contact-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.contact-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.contact-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+.contact-hero-section svg,
+.contact-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.contact-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-social .btn {
+  width: 45px;
+  height: 45px;
+}
+
+.contact-map-container {
+  height: 400px;
+  background: #f8f9fa;
+}
+
+.contact-map-icon {
+  font-size: 4rem;
+}
+
+/* Order Now RTL Styles */
+.order-file-input {
+  display: none;
+}
+
+/* Responsive adjustments for Contact RTL images */
+@media (max-width: 767.98px) {
+  .contact-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .contact-details-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-social .btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-map-container {
+    height: 300px;
+  }
+  
+  .contact-map-icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contact-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .contact-details-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .contact-social .btn {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .contact-map-container {
+    height: 250px;
+  }
+  
+  .contact-map-icon {
+    font-size: 2.5rem;
+  }
+} 
+
+/* Legal Translation Service RTL Styles */
+.legal-translation-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.legal-translation-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.legal-translation-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.legal-translation-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+.legal-translation-hero-section svg,
+.legal-translation-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.legal-translation-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.legal-translation-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Signature Notarization Service RTL Styles */
+.signature-notarization-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+.signature-notarization-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+.signature-notarization-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.signature-notarization-hero-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+} 
+
+/* Enhanced RTL Mobile Responsive Fixes */
+
+/* RTL Button Enhancements */
+html[dir="rtl"] .btn i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .btn.btn-icon-only i {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* RTL Hero Section Enhancements */
+html[dir="rtl"] .hero-section .carousel-caption {
+  text-align: right;
+}
+
+html[dir="rtl"] .hero-section .carousel-caption .container {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-section .carousel-caption .row {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-section .carousel-caption .col-lg-8 {
+  text-align: right;
+}
+
+/* RTL Hero Badge Enhancements */
+html[dir="rtl"] .hero-badge {
+  text-align: right;
+}
+
+html[dir="rtl"] .hero-badge .badge {
+  direction: rtl;
+}
+
+/* RTL Hero Features Enhancements */
+html[dir="rtl"] .hero-features {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-feature {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-feature i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .hero-feature span {
+  text-align: right;
+}
+
+/* RTL Hero Buttons Enhancements */
+html[dir="rtl"] .hero-buttons {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-btn {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .hero-btn i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Title Enhancements */
+html[dir="rtl"] .hero-title,
+html[dir="rtl"] .hero-subtitle {
+  text-align: right;
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-title span {
+  text-align: right;
+}
+
+/* RTL Media Query Enhancements */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .hero-section .carousel-caption {
+    text-align: right;
+  }
+  
+  html[dir="rtl"] .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  html[dir="rtl"] .hero-btn {
+    flex-direction: row-reverse;
+  }
+  
+  html[dir="rtl"] .hero-btn i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .hero-features {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  html[dir="rtl"] .hero-feature {
+    flex-direction: row-reverse;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-feature i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .hero-section .carousel-caption {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-badge .badge {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  html[dir="rtl"] .hero-btn {
+    flex-direction: row-reverse;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  html[dir="rtl"] .hero-btn i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+/* RTL Ultra-small screen optimizations */
+@media (max-width: 400px) {
+  html[dir="rtl"] .hero-features {
+    display: none;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption {
+    padding-top: 60px;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption h1 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.75rem;
+    min-width: 120px;
+    min-height: 44px;
+    flex-direction: row-reverse;
+  }
+  
+  html[dir="rtl"] .hero-btn i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+/* RTL Carousel Controls */
+html[dir="rtl"] .hero-section .carousel-control-prev,
+html[dir="rtl"] .hero-section .carousel-control-next {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-section .carousel-control-prev {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .hero-section .carousel-control-next {
+  left: 0;
+  right: auto;
+}
+
+html[dir="rtl"] .hero-section .carousel-control-prev:hover,
+html[dir="rtl"] .hero-section .carousel-control-next:hover {
+  direction: rtl;
+}
+
+/* RTL Carousel Indicators */
+html[dir="rtl"] .hero-section .carousel-indicators {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-section .carousel-indicators [data-bs-target] {
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero-section .carousel-indicators .active {
+  direction: rtl;
+}
+
+/* RTL Form Section Enhancements */
+html[dir="rtl"] .form-section .card-body:before {
+  right: 0;
+  left: auto;
+}
+
+/* RTL Feature Box Enhancements */
+html[dir="rtl"] .feature-box:before {
+  right: 0;
+  left: auto;
+}
+
+/* RTL Testimonial Enhancements */
+html[dir="rtl"] .testimonial-item blockquote:before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .testimonial-item blockquote:after {
+  left: 0;
+  right: auto;
+}
+
+/* RTL Step Connector Enhancements */
+html[dir="rtl"] .step-connector {
+  right: 50%;
+  left: auto;
+  transform: translateX(50%);
+}
+
+/* RTL Experience Badge Enhancements */
+html[dir="rtl"] .experience-badge {
+  direction: rtl;
+}
+
+/* RTL About Feature Enhancements */
+html[dir="rtl"] .about-feature:hover {
+  transform: translateX(-5px);
+}
+
+/* RTL WhatsApp Float Enhancements */
+html[dir="rtl"] .whatsapp-float {
+  left: 20px;
+  right: auto;
+}
+
+/* RTL Call Float Enhancements */
+html[dir="rtl"] .call-float {
+  left: 20px;
+  right: auto;
+}
+
+/* RTL Footer Enhancements */
+html[dir="rtl"] footer h5:after {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] footer a:hover {
+  direction: rtl;
+}
+
+html[dir="rtl"] footer .d-flex a {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+/* RTL Achievement Section Enhancements */
+html[dir="rtl"] .achievements-section::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .achievements-section::after {
+  left: 0;
+  right: auto;
+}
+
+html[dir="rtl"] .achievement-card::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .achievement-card:hover .achievement-icon i {
+  direction: rtl;
+}
+
+/* RTL Appointment Feature Enhancements */
+html[dir="rtl"] .appointment-feature:hover {
+  transform: translateX(-5px);
+}
+
+/* RTL Business Setup Enhancements */
+html[dir="rtl"] .business-setup-section::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .business-card:hover .business-card-icon {
+  direction: rtl;
+}
+
+html[dir="rtl"] .business-features {
+  direction: rtl;
+}
+
+html[dir="rtl"] .business-features li {
+  text-align: right;
+}
+
+html[dir="rtl"] .business-features li i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .business-card .btn {
+  direction: rtl;
+}
+
+/* RTL Team Section Enhancements */
+html[dir="rtl"] .team-social {
+  direction: rtl;
+}
+
+/* RTL Dropdown Enhancements */
+html[dir="rtl"] .dropdown-item:hover, 
+html[dir="rtl"] .dropdown-item:focus {
+  direction: rtl;
+}
+
+html[dir="rtl"] .dropdown-item:hover::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .dropdown-header {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL Services Pages Styles */
+html[dir="rtl"] .service-hero::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .service-hero h1::after {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .service-card-modern .service-icon {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-card-modern .service-img::after {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .service-card-modern .service-link {
+  direction: rtl;
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .service-card-modern .service-link i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .service-card-modern:hover .service-link i {
+  direction: rtl;
+}
+
+/* RTL Service Detail Enhancements */
+html[dir="rtl"] .service-detail-card::before {
+  right: 0;
+  left: auto;
+}
+
+html[dir="rtl"] .service-requirements h5 {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-requirements h5 i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .requirements-list {
+  direction: rtl;
+}
+
+html[dir="rtl"] .requirements-list li {
+  text-align: right;
+}
+
+html[dir="rtl"] .requirements-list li::before {
+  right: 0;
+  left: auto;
+}
+
+/* RTL Category Footer Enhancements */
+html[dir="rtl"] .category-footer .btn i.fa-arrow-right {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Service Feature Enhancements */
+html[dir="rtl"] .service-feature i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Service Link Enhancements */
+html[dir="rtl"] .service-link i.fa-arrow-left {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .service-link:hover i.fa-arrow-left {
+  direction: rtl;
+}
+
+/* RTL Section Divider Enhancements */
+html[dir="rtl"] .section-divider {
+  direction: rtl;
+}
+
+/* RTL Service Card Premium Enhancements */
+html[dir="rtl"] .service-card-premium .service-icon {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-premium-badge {
+  direction: rtl;
+}
+
+/* RTL Process Step Enhancements */
+html[dir="rtl"] .process-step .rounded-circle {
+  direction: rtl;
+}
+
+html[dir="rtl"] .process-connector {
+  right: 50%;
+  left: auto;
+  transform: translateX(50%);
+}
+
+/* RTL Quick Info Card Enhancements */
+html[dir="rtl"] .quick-info-card .rounded-circle {
+  direction: rtl;
+}
+
+/* RTL Request Service Enhancements */
+html[dir="rtl"] .request-service-info ul li i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Service Card Modern Enhancements */
+html[dir="rtl"] .service-card-modern .card-title i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Service Detail Content Enhancements */
+html[dir="rtl"] .service-detail-content h5 i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Benefits List Enhancements */
+html[dir="rtl"] .benefits-list .flex-grow-1 {
+  direction: rtl;
+}
+
+/* RTL HTML Direction */
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL Order Hero Content Enhancements */
+html[dir="rtl"] .order-hero-content h1 {
+  text-align: right;
+}
+
+/* RTL Order Steps Enhancements */
+html[dir="rtl"] .order-steps .step-arrow i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Step Title Enhancements */
+html[dir="rtl"] .step-title i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Uploaded File Enhancements */
+html[dir="rtl"] .uploaded-file i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .uploaded-file {
+  direction: rtl;
+}
+
+html[dir="rtl"] .btn-remove {
+  direction: rtl;
+}
+
+/* RTL Form Validation Enhancements */
+html[dir="rtl"] .form-control.is-invalid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .form-control.is-invalid:focus {
+  direction: rtl;
+}
+
+html[dir="rtl"] .form-select.is-invalid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .form-select.is-invalid:focus {
+  direction: rtl;
+}
+
+/* RTL Mobile Order Enhancements */
+@media (max-width: 768px) {
+  html[dir="rtl"] .order-steps .step-arrow i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+  
+  html[dir="rtl"] .step-actions {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .step-actions .btn {
+    flex-direction: row-reverse;
+  }
+}
+
+/* RTL Consultation Hero Enhancements */
+html[dir="rtl"] .consultation-hero {
+  direction: rtl;
+}
+
+html[dir="rtl"] .consultation-hero .hero-content {
+  text-align: right;
+}
+
+/* RTL Text Gradient Enhancements */
+html[dir="rtl"] .text-gradient {
+  direction: rtl;
+}
+
+/* RTL Floating Card Enhancements */
+html[dir="rtl"] .floating-card {
+  direction: rtl;
+}
+
+/* RTL Booking Section Enhancements */
+html[dir="rtl"] .booking-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .booking-card .card {
+  direction: rtl;
+}
+
+/* RTL Step Title Enhancements */
+html[dir="rtl"] .step-title {
+  direction: rtl;
+}
+
+html[dir="rtl"] .step-title i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+/* RTL Date Picker Enhancements */
+html[dir="rtl"] .date-picker input {
+  direction: rtl;
+}
+
+/* RTL Time Slots Enhancements */
+html[dir="rtl"] .time-slots {
+  direction: rtl;
+}
+
+html[dir="rtl"] .time-slot {
+  direction: rtl;
+}
+
+/* RTL Consultation Type Enhancements */
+html[dir="rtl"] .consultation-type {
+  direction: rtl;
+}
+
+html[dir="rtl"] .type-option {
+  direction: rtl;
+}
+
+/* RTL Language Options Enhancements */
+html[dir="rtl"] .language-options {
+  direction: rtl;
+}
+
+html[dir="rtl"] .lang-option {
+  direction: rtl;
+}
+
+/* RTL Confirmation Summary Enhancements */
+html[dir="rtl"] .confirmation-summary {
+  direction: rtl;
+}
+
+/* RTL Summary Item Enhancements */
+html[dir="rtl"] .summary-item {
+  direction: rtl;
+}
+
+html[dir="rtl"] .summary-item .label {
+  text-align: right;
+}
+
+html[dir="rtl"] .summary-item .value {
+  text-align: left;
+}
+
+/* RTL Form Navigation Enhancements */
+html[dir="rtl"] .form-navigation {
+  direction: rtl;
+}
+
+html[dir="rtl"] .form-navigation .btn i.fa-arrow-right {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .form-navigation .btn i.fa-arrow-left {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* RTL Contact Hero Section Enhancements */
+html[dir="rtl"] .contact-hero-section .col-lg-5 {
+  order: 2;
+}
+
+html[dir="rtl"] .contact-hero-section .col-lg-7 {
+  order: 1;
+}
+
+/* RTL Quick Contact Card Enhancements */
+html[dir="rtl"] .quick-contact-card {
+  direction: rtl;
+}
+
+/* RTL Contact Info Card Enhancements */
+html[dir="rtl"] .contact-info-card {
+  direction: rtl;
+}
+
+/* RTL Contact Item Enhancements */
+html[dir="rtl"] .contact-item .d-flex {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .contact-item .contact-icon {
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+/* RTL Contact Social Enhancements */
+html[dir="rtl"] .contact-social .btn {
+  direction: rtl;
+}
+
+/* RTL Contact Form Card Enhancements */
+html[dir="rtl"] .contact-form-card {
+  direction: rtl;
+}
+
+/* RTL Contact Form Enhancements */
+html[dir="rtl"] .contact-form .form-control,
+html[dir="rtl"] .contact-form .form-select {
+  direction: rtl;
+}
+
+html[dir="rtl"] .contact-form .form-label {
+  text-align: right;
+}
+
+/* RTL Map Container Enhancements */
+html[dir="rtl"] .map-container {
+  direction: rtl;
+}
+
+/* RTL FAQ Hero Section Enhancements */
+html[dir="rtl"] .faq-hero-section .col-lg-5 {
+  order: 2;
+}
+
+html[dir="rtl"] .faq-hero-section .col-lg-7 {
+  order: 1;
+}
+
+/* RTL FAQ Category Card Enhancements */
+html[dir="rtl"] .faq-category-card {
+  direction: rtl;
+}
+
+/* RTL FAQ Section Enhancements */
+html[dir="rtl"] .faq-section .accordion-button {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .faq-section .accordion-button i {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .faq-section .accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+html[dir="rtl"] .faq-section .accordion-body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL Contact CTA Section Enhancements */
+html[dir="rtl"] .contact-cta-section {
+  direction: rtl;
+}
+
+/* RTL Service Hero Section Enhancements */
+html[dir="rtl"] .service-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .modern-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-hero-section svg,
+html[dir="rtl"] .modern-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .modern-request-form {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-details-section .img-fluid {
+  direction: rtl;
+}
+
+/* RTL Golden Visa Hero Section Enhancements */
+html[dir="rtl"] .golden-visa-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .golden-visa-details-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .golden-visa-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .golden-visa-hero-section svg,
+html[dir="rtl"] .golden-visa-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .golden-visa-request-form {
+  direction: rtl;
+}
+
+/* RTL Service Declarations Hero Section Enhancements */
+html[dir="rtl"] .service-declarations-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-declarations-details-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-declarations-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-declarations-hero-section svg,
+html[dir="rtl"] .service-declarations-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .service-declarations-request-form {
+  direction: rtl;
+}
+
+/* RTL About Hero Section Enhancements */
+html[dir="rtl"] .about-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-company-overview .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-mission-icon,
+html[dir="rtl"] .about-vision-icon {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-team-avatar {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-license-icon {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .about-hero-section svg,
+html[dir="rtl"] .about-cta-section svg {
+  direction: rtl;
+}
+
+/* RTL Document Attestation Hero Section Enhancements */
+html[dir="rtl"] .document-attestation-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .document-attestation-details-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .document-attestation-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .document-attestation-hero-section svg,
+html[dir="rtl"] .document-attestation-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .document-attestation-request-form {
+  direction: rtl;
+}
+
+/* RTL True Copy Hero Section Enhancements */
+html[dir="rtl"] .true-copy-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .true-copy-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .true-copy-details-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .true-copy-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .true-copy-hero-section svg,
+html[dir="rtl"] .true-copy-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .true-copy-request-form {
+  direction: rtl;
+}
+
+/* RTL No Objection Hero Section Enhancements */
+html[dir="rtl"] .no-objection-hero-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .no-objection-hero-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .no-objection-details-section .img-fluid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .no-objection-cta-section {
+  direction: rtl;
+}
+
+html[dir="rtl"] .no-objection-hero-section svg,
+html[dir="rtl"] .no-objection-cta-section svg {
+  direction: rtl;
+}
+
+html[dir="rtl"] .no-objection-request-form {
+  direction: rtl;
+}
+
+/* RTL Legal Notice Hero Section Enhancements */
+.legal-notice-hero-section {
+  direction: rtl;
+}
+
+.legal-notice-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.legal-notice-details-section .img-fluid {
+  direction: rtl;
+}
+
+.legal-notice-cta-section {
+  direction: rtl;
+}
+
+.legal-notice-hero-section svg,
+.legal-notice-cta-section svg {
+  direction: rtl;
+}
+
+.legal-notice-request-form {
+  direction: rtl;
+}
+
+/* RTL Company Establishment Hero Section Enhancements */
+.company-establishment-hero-section {
+  direction: rtl;
+}
+
+.company-establishment-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.company-establishment-details-section .img-fluid {
+  direction: rtl;
+}
+
+.company-establishment-cta-section {
+  direction: rtl;
+}
+
+.company-establishment-hero-section svg,
+.company-establishment-cta-section svg {
+  direction: rtl;
+}
+
+.company-establishment-request-form {
+  direction: rtl;
+}
+
+/* RTL Power of Attorney Hero Section Enhancements */
+.power-of-attorney-hero-section {
+  direction: rtl;
+}
+
+.power-of-attorney-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.power-of-attorney-details-section .img-fluid {
+  direction: rtl;
+}
+
+.power-of-attorney-cta-section {
+  direction: rtl;
+}
+
+.power-of-attorney-hero-section svg,
+.power-of-attorney-cta-section svg {
+  direction: rtl;
+}
+
+.power-of-attorney-request-form {
+  direction: rtl;
+}
+
+/* Consultation Booking RTL Styles */
+.consultation-success-icon {
+  direction: rtl;
+}
+
+/* Consultation Form Nav Enhancements */
+.consultation-form-nav {
+  direction: rtl;
+}
+
+.consultation-form-nav.show {
+  direction: rtl;
+}
+
+/* Contact Service RTL Styles */
+.contact-hero-section {
+  direction: rtl;
+}
+
+.contact-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.contact-details-section .img-fluid {
+  direction: rtl;
+}
+
+.contact-cta-section {
+  direction: rtl;
+}
+
+.contact-hero-section svg,
+.contact-cta-section svg {
+  direction: rtl;
+}
+
+.contact-request-form {
+  direction: rtl;
+}
+
+/* Contact Icon Enhancements */
+.contact-icon {
+  direction: rtl;
+}
+
+/* Contact Social Enhancements */
+.contact-social .btn {
+  direction: rtl;
+}
+
+/* Contact Map Container Enhancements */
+.contact-map-container {
+  direction: rtl;
+}
+
+/* Contact Map Icon Enhancements */
+.contact-map-icon {
+  direction: rtl;
+}
+
+/* Order File Input Enhancements */
+.order-file-input {
+  direction: rtl;
+}
+
+/* Legal Translation Service RTL Styles */
+.legal-translation-hero-section {
+  direction: rtl;
+}
+
+.legal-translation-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.legal-translation-details-section .img-fluid {
+  direction: rtl;
+}
+
+.legal-translation-cta-section {
+  direction: rtl;
+}
+
+.legal-translation-hero-section svg,
+.legal-translation-cta-section svg {
+  direction: rtl;
+}
+
+.legal-translation-request-form {
+  direction: rtl;
+}
+
+.legal-translation-icon {
+  direction: rtl;
+}
+
+/* Signature Notarization Service RTL Styles */
+.signature-notarization-hero-section {
+  direction: rtl;
+}
+
+.signature-notarization-hero-section .img-fluid {
+  direction: rtl;
+}
+
+.signature-notarization-details-section .img-fluid {
+  direction: rtl;
+}
+
+.signature-notarization-hero-section svg {
+  direction: rtl;
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .contact-hero-section .col-lg-5,
+  html[dir="rtl"] .contact-hero-section .col-lg-7 {
+    order: unset;
+  }
+  
+  html[dir="rtl"] .faq-hero-section .col-lg-5,
+  html[dir="rtl"] .faq-hero-section .col-lg-7 {
+    order: unset;
+  }
+  
+  html[dir="rtl"] .contact-info-card,
+  html[dir="rtl"] .contact-form-card {
+    margin-bottom: 2rem;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .contact-hero-section h1,
+  html[dir="rtl"] .faq-hero-section h1 {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .quick-contact-card {
+    margin-bottom: 2rem;
+  }
+  
+  html[dir="rtl"] .faq-category-card {
+    margin-bottom: 2rem;
+  }
+  
+  html[dir="rtl"] .faq-section .accordion-button {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .faq-section .accordion-body {
+    text-align: center;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .contact-hero-section h1,
+  html[dir="rtl"] .faq-hero-section h1 {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .contact-form-card,
+  html[dir="rtl"] .faq-category-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  html[dir="rtl"] .faq-section .accordion-button {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .faq-section .accordion-button i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .service-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .service-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .service-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .service-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .golden-visa-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .golden-visa-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .golden-visa-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .service-declarations-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .service-declarations-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .service-declarations-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .document-attestation-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .document-attestation-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .document-attestation-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .true-copy-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .true-copy-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .true-copy-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .true-copy-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .no-objection-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .no-objection-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .no-objection-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  html[dir="rtl"] .no-objection-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .legal-notice-hero-section .img-fluid,
+  .company-establishment-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .legal-notice-details-section .img-fluid,
+  .company-establishment-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  .legal-notice-hero-section .img-fluid,
+  .company-establishment-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .legal-notice-details-section .img-fluid,
+  .company-establishment-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .contact-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .contact-details-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .contact-icon {
+    direction: rtl;
+  }
+  
+  .contact-social .btn {
+    direction: rtl;
+  }
+  
+  .contact-map-container {
+    direction: rtl;
+  }
+  
+  .contact-map-icon {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  .contact-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .contact-details-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .contact-icon {
+    direction: rtl;
+  }
+  
+  .contact-social .btn {
+    direction: rtl;
+  }
+  
+  .contact-map-container {
+    direction: rtl;
+  }
+  
+  .contact-map-icon {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .legal-translation-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .legal-translation-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  .legal-translation-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .legal-translation-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .signature-notarization-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .signature-notarization-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Mobile Responsive Enhancements */
+@media (max-width: 575.98px) {
+  .signature-notarization-hero-section .img-fluid {
+    direction: rtl;
+  }
+  
+  .signature-notarization-details-section .img-fluid {
+    direction: rtl;
+  }
+}
+
+/* RTL Ultra-small screen optimizations */
+@media (max-width: 400px) {
+  html[dir="rtl"] .hero-features {
+    display: none;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption {
+    padding-top: 60px;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption h1 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .hero-section .carousel-caption .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.75rem;
+    min-width: 120px;
+    min-height: 44px;
+    flex-direction: row-reverse;
+  }
+  
+  html[dir="rtl"] .hero-btn i {
+    margin-left: 0.5rem;
+    margin-right: 0;
+  }
+}
+
+/* RTL About Us Page Responsive Fixes */
+
+/* RTL Quick Stats Section Responsive */
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .quick-stats-section {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .quick-stats-card {
+    padding: 1.5rem 1rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card i {
+    font-size: 1.5rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  html[dir="rtl"] .quick-stats-card p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .quick-stats-section {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .quick-stats-card {
+    padding: 1rem 0.75rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card i {
+    font-size: 1.25rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card h3 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .quick-stats-card p {
+    font-size: 0.75rem;
+  }
+}
+
+/* RTL About Hero Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .about-hero-section {
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
+  }
+  
+  html[dir="rtl"] .about-hero-section h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  html[dir="rtl"] .about-hero-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  html[dir="rtl"] .about-hero-section .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .about-hero-section {
+    padding-top: 80px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  html[dir="rtl"] .about-hero-section h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  
+  html[dir="rtl"] .about-hero-section p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  html[dir="rtl"] .about-hero-section .d-flex {
+    flex-direction: column;
+    gap: 1rem !important;
+  }
+  
+  html[dir="rtl"] .about-hero-section .btn {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    max-height: 250px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .about-hero-section {
+    padding-top: 70px !important;
+    padding-bottom: 40px !important;
+  }
+  
+  html[dir="rtl"] .about-hero-section h1 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+  
+  html[dir="rtl"] .about-hero-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  html[dir="rtl"] .about-hero-section .btn {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .about-hero-section .img-fluid {
+    max-height: 200px;
+  }
+}
+
+/* RTL Company Overview Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .about-company-overview h2 {
+    font-size: 2rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .about-company-overview {
+    padding: 3rem 0;
+  }
+  
+  html[dir="rtl"] .about-company-overview h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .about-company-overview p {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .about-company-overview .row.g-3 {
+    margin-top: 1.5rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview .col-6 {
+    text-align: center;
+  }
+  
+  html[dir="rtl"] .about-company-overview .d-flex {
+    justify-content: center;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    max-height: 250px;
+    margin-top: 2rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview .btn {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .about-company-overview {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .about-company-overview h2 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview .img-fluid {
+    max-height: 200px;
+  }
+  
+  html[dir="rtl"] .about-company-overview .btn {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* RTL Mission & Vision Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .mission-vision h2 {
+    font-size: 2rem;
+  }
+  
+  html[dir="rtl"] .mission-vision p {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .mission-card,
+  html[dir="rtl"] .vision-card {
+    padding: 2rem 1.5rem !important;
+  }
+  
+  html[dir="rtl"] .mission-card h3,
+  html[dir="rtl"] .vision-card h3 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .mission-card p,
+  html[dir="rtl"] .vision-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .mission-vision {
+    padding: 3rem 0;
+  }
+  
+  html[dir="rtl"] .mission-vision h2 {
+    font-size: 1.75rem;
+  }
+  
+  html[dir="rtl"] .mission-vision p {
+    font-size: 0.95rem;
+  }
+  
+  html[dir="rtl"] .mission-card,
+  html[dir="rtl"] .vision-card {
+    padding: 1.5rem 1rem !important;
+    margin-bottom: 1.5rem;
+  }
+  
+  html[dir="rtl"] .mission-card h3,
+  html[dir="rtl"] .vision-card h3 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .mission-card p,
+  html[dir="rtl"] .vision-card p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .mission-card ul li,
+  html[dir="rtl"] .vision-card ul li {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .mission-vision {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .mission-vision h2 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .mission-vision p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .mission-card,
+  html[dir="rtl"] .vision-card {
+    padding: 1.25rem 0.75rem !important;
+  }
+  
+  html[dir="rtl"] .mission-card h3,
+  html[dir="rtl"] .vision-card h3 {
+    font-size: 1.125rem;
+  }
+  
+  html[dir="rtl"] .mission-card p,
+  html[dir="rtl"] .vision-card p {
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .mission-card ul li,
+  html[dir="rtl"] .vision-card ul li {
+    font-size: 0.8rem;
+  }
+}
+
+/* RTL Team Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .team-section h2 {
+    font-size: 2rem;
+  }
+  
+  html[dir="rtl"] .team-section p {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .team-card {
+    padding: 2rem 1.5rem !important;
+  }
+  
+  html[dir="rtl"] .team-card h4 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .team-card p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .about-team-avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .team-section {
+    padding: 3rem 0;
+  }
+  
+  html[dir="rtl"] .team-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  html[dir="rtl"] .team-section p {
+    font-size: 0.95rem;
+  }
+  
+  html[dir="rtl"] .team-card {
+    padding: 1.5rem 1rem !important;
+    margin-bottom: 1.5rem;
+  }
+  
+  html[dir="rtl"] .team-card h4 {
+    font-size: 1.125rem;
+  }
+  
+  html[dir="rtl"] .team-card p {
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .about-team-avatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  html[dir="rtl"] .team-social a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .team-section {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .team-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .team-section p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .team-card {
+    padding: 1.25rem 0.75rem !important;
+  }
+  
+  html[dir="rtl"] .team-card h4 {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .team-card p {
+    font-size: 0.8rem;
+  }
+  
+  html[dir="rtl"] .about-team-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  html[dir="rtl"] .team-social a {
+    font-size: 0.9rem;
+  }
+}
+
+/* RTL License Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .license-section h2 {
+    font-size: 2rem;
+  }
+  
+  html[dir="rtl"] .license-section p {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .license-card {
+    padding: 1.5rem !important;
+  }
+  
+  html[dir="rtl"] .license-card h5 {
+    font-size: 1.125rem;
+  }
+  
+  html[dir="rtl"] .license-card p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .about-license-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .license-section {
+    padding: 3rem 0;
+  }
+  
+  html[dir="rtl"] .license-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  html[dir="rtl"] .license-section p {
+    font-size: 0.95rem;
+  }
+  
+  html[dir="rtl"] .license-card {
+    padding: 1.25rem !important;
+    margin-bottom: 1.5rem;
+  }
+  
+  html[dir="rtl"] .license-card h5 {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .license-card p {
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .about-license-icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .license-section {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .license-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .license-section p {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .license-card {
+    padding: 1rem !important;
+  }
+  
+  html[dir="rtl"] .license-card h5 {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .license-card p {
+    font-size: 0.8rem;
+  }
+  
+  html[dir="rtl"] .about-license-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* RTL About CTA Section Responsive */
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .about-cta-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section p {
+    font-size: 1.1rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section .btn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html[dir="rtl"] .about-cta-section {
+    padding: 3rem 0;
+  }
+  
+  html[dir="rtl"] .about-cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section p {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section .d-flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section .btn {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  html[dir="rtl"] .about-cta-section {
+    padding: 2rem 0;
+  }
+  
+  html[dir="rtl"] .about-cta-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section p {
+    font-size: 0.95rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* RTL Ultra-small screen optimizations for About Us */
+@media (max-width: 400px) {
+  html[dir="rtl"] .about-hero-section {
+    padding-top: 60px !important;
+    padding-bottom: 30px !important;
+  }
+  
+  html[dir="rtl"] .about-hero-section h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  html[dir="rtl"] .about-hero-section p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  html[dir="rtl"] .about-hero-section .btn {
+    padding: 0.625rem 1rem;
+    font-size: 0.8rem;
+    min-width: 120px;
+    min-height: 44px;
+  }
+  
+  html[dir="rtl"] .quick-stats-card {
+    padding: 0.75rem 0.5rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card i {
+    font-size: 1rem !important;
+  }
+  
+  html[dir="rtl"] .quick-stats-card h3 {
+    font-size: 1.125rem;
+  }
+  
+  html[dir="rtl"] .quick-stats-card p {
+    font-size: 0.7rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .about-company-overview h2 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .about-company-overview p {
+    font-size: 0.8rem;
+  }
+  
+  html[dir="rtl"] .mission-vision {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .mission-vision h2 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .mission-card,
+  html[dir="rtl"] .vision-card {
+    padding: 1rem 0.5rem !important;
+  }
+  
+  html[dir="rtl"] .mission-card h3,
+  html[dir="rtl"] .vision-card h3 {
+    font-size: 1rem;
+  }
+  
+  html[dir="rtl"] .mission-card p,
+  html[dir="rtl"] .vision-card p {
+    font-size: 0.8rem;
+  }
+  
+  html[dir="rtl"] .team-section {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .team-section h2 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .team-card {
+    padding: 1rem 0.5rem !important;
+  }
+  
+  html[dir="rtl"] .team-card h4 {
+    font-size: 0.9rem;
+  }
+  
+  html[dir="rtl"] .team-card p {
+    font-size: 0.75rem;
+  }
+  
+  html[dir="rtl"] .about-team-avatar {
+    width: 60px;
+    height: 60px;
+  }
+  
+  html[dir="rtl"] .license-section {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .license-section h2 {
+    font-size: 1.25rem;
+  }
+  
+  html[dir="rtl"] .license-card {
+    padding: 0.75rem !important;
+  }
+  
+  html[dir="rtl"] .license-card h5 {
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .license-card p {
+    font-size: 0.75rem;
+  }
+  
+  html[dir="rtl"] .about-license-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  html[dir="rtl"] .about-cta-section {
+    padding: 1.5rem 0;
+  }
+  
+  html[dir="rtl"] .about-cta-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section p {
+    font-size: 0.85rem;
+  }
+  
+  html[dir="rtl"] .about-cta-section .btn {
+    padding: 0.625rem 1rem;
+    font-size: 0.8rem;
+    min-width: 120px;
+    min-height: 44px;
+  }
+}
+
+/* Service Hero Background Circles */
+.service-hero-bg-circle {
+  width: 300px;
+  height: 300px;
+}
+
+.service-hero-bg-circle-1 {
+  transform: translate(30%, -30%);
+}
+
+.service-hero-bg-circle-2 {
+  width: 400px;
+  height: 400px;
+  transform: translate(-20%, 20%);
+}
+
+.service-hero-bg-circle-3 {
+  width: 600px;
+  height: 600px;
+}
+
+/* Service Hero Description */
+.service-hero-description {
+  max-width: 700px;
+}
+
+/* Special Category Icon Styles */
+.special-category-icon-bg {
+  background-color: rgba(200, 169, 126, 0.15);
+}
+
+.special-category-icon {
+  color: #c8a97e;
+}
+
+/* Service Section Description */
+.service-section-description {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Service CTA Gradient */
+.service-cta-gradient {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Service CTA SVG */
+.service-cta-svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* RTL Responsive Fixes for Consultation Booking */
+@media (max-width: 991.98px) {
+  .consultation-hero .hero-content h1 {
+    text-align: right;
+  }
+  .floating-card {
+    text-align: right;
+  }
+}
+@media (max-width: 767.98px) {
+  .consultation-hero .hero-content h1 {
+    text-align: right;
+  }
+  .hero-features {
+    align-items: flex-end;
+  }
+  .floating-card {
+    text-align: right;
+  }
+  .form-navigation {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  .form-navigation .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .summary-card h5 {
+    text-align: right;
+  }
+  .summary-item {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+  }
+  .summary-item .label, .summary-item .value {
+    text-align: right;
+  }
+}
+@media (max-width: 575.98px) {
+  .consultation-hero .hero-content h1 {
+    text-align: right;
+  }
+  .floating-card {
+    text-align: right;
+  }
+  .form-navigation .btn {
+    font-size: 0.95rem;
+    padding: 0.7rem 1rem;
+  }
+  .summary-card h5 {
+    font-size: 0.95rem;
+    text-align: right;
+  }
+}

@@ -1,763 +1,1087 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Order Now - QUICK LINK</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Bootstrap 5 CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Responsive Fixes -->
+        <link rel="stylesheet" href="css/responsive-fixes.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Order Now - QUICK LINK</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- Bootstrap 5 CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Responsive Fixes -->
-    <link rel="stylesheet" href="css/responsive-fixes.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css" />
-</head>
-
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo/logo.png" alt="QUICK LINK Logo" height="40" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-animate" aria-labelledby="servicesDropdown">
-                            <!-- <li>
-                                <a class="dropdown-item" href="services.html">All Services</a>
-                            </li> -->
-                            <!-- <li>
-                                <hr class="dropdown-divider" />
-                            </li> -->
-                            <li>
-                                <h6 class="dropdown-header">
-                                    Legal Documents
-                                </h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-power-of-attorney.html">Power of Attorney</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-company-establishment.html">Company
-                                    Establishment</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-legal-notice.html">Legal Notice</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">
-                                    Certificates & Translation
-                                </h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-legal-translation.html">Legal Translation</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-no-objection.html">No Objection Certificate</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-true-copy.html">True Copy (Certified Copy)</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-document-attestation.html">Document
-                                    Attestation</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-declarations.html">Legal Declarations</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider" />
-                            </li>
-                            <li>
-                                <h6 class="dropdown-header">
-                                    Special Services
-                                </h6>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-will.html">Will Services</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="service-golden-visa.html">Golden Visa</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="consultation-booking.html">Book Consultation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="order-now.html">Order Now</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item ms-2">
-                        <a class="btn btn-outline-primary" href="order-now-rtl.html">العربية</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="order-hero">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="order-hero-content">
-                        <h1 class="animate-on-scroll">
-                            Order Your Legal Services
-                        </h1>
-                        <p class="animate-on-scroll">
-                            Get your legal documents prepared and
-                            authenticated with our professional services.
-                            Choose your service, upload documents, and we'll
-                            handle the rest with expert care.
-                        </p>
-                        <div class="order-steps animate-on-scroll">
-                            <div class="step-item">
-                                <div class="step-number">1</div>
-                                <span>Select Service</span>
-                            </div>
-                            <div class="step-arrow">
-                                <i class="fas fa-arrow-right"></i>
-                            </div>
-                            <div class="step-item">
-                                <div class="step-number">2</div>
-                                <span>Upload Documents</span>
-                            </div>
-                            <div class="step-arrow">
-                                <i class="fas fa-arrow-right"></i>
-                            </div>
-                            <div class="step-item">
-                                <div class="step-number">3</div>
-                                <span>Get Documents</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-none d-lg-block">
-                    <div class="order-hero-image">
-                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080&q=80"
-                            alt="Legal Services" class="img-fluid rounded-lg shadow-lg" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Order Form Section -->
-    <section class="order-form-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="order-form-card">
-                        <div class="card-header text-center">
-                            <h2>Service Order Form</h2>
-                            <p class="text-muted">
-                                Complete the form below to order your legal
-                                service
-                            </p>
-                        </div>
-                        <div class="card-body">
-                            <form id="orderForm" class="order-form">
-                                <!-- Step 1: Service Selection -->
-                                <div class="form-step active" id="step1">
-                                    <h3 class="step-title">
-                                        <i class="fas fa-list-alt me-2"></i>
-                                        Step 1: Select Your Service
-                                    </h3>
-                                    <div class="row g-4">
-                                        <div class="col-md-6">
-                                            <label for="serviceCategory" class="form-label">Service Category</label>
-                                            <select class="form-select" id="serviceCategory" required>
-                                                <option value="" selected disabled>
-                                                    Choose a category
-                                                </option>
-                                                <option value="legal-documents">
-                                                    Legal Documents
-                                                </option>
-                                                <option value="certificates">
-                                                    Certificates &
-                                                    Translation
-                                                </option>
-                                                <option value="special-services">
-                                                    Special Services
-                                                </option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="serviceType" class="form-label">Service Type</label>
-                                            <select class="form-select" id="serviceType" required>
-                                                <option value="" selected disabled>
-                                                    Choose a service
-                                                </option>
-                                                <!-- Options will be populated via JavaScript -->
-                                            </select>
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="serviceDescription" class="form-label">Service
-                                                Description</label>
-                                            <textarea class="form-control" id="serviceDescription" rows="3"
-                                                placeholder="Please provide details about your specific requirements..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="step-actions">
-                                        <button type="button" class="btn btn-primary next-step">
-                                            Next Step
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <!-- Step 2: Personal Information -->
-                                <div class="form-step" id="step2">
-                                    <h3 class="step-title">
-                                        <i class="fas fa-user me-2"></i>
-                                        Step 2: Personal Information
-                                    </h3>
-                                    <div class="row g-3">
-                                        <div class="col-md-6">
-                                            <label for="fullName" class="form-label">Full Name</label>
-                                            <input type="text" class="form-control" id="fullName" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="email" class="form-label">Email Address</label>
-                                            <input type="email" class="form-control" id="email" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="phone" class="form-label">Phone Number</label>
-                                            <input type="tel" class="form-control" id="phone" required />
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="nationality" class="form-label">Nationality</label>
-                                            <input type="text" class="form-control" id="nationality" required />
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="address" class="form-label">Address</label>
-                                            <textarea class="form-control" id="address" rows="2"
-                                                placeholder="Enter your full address"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="step-actions">
-                                        <button type="button" class="btn btn-outline-secondary prev-step">
-                                            Previous
-                                        </button>
-                                        <button type="button" class="btn btn-primary next-step">
-                                            Next Step
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <!-- Step 3: Document Upload -->
-                                <div class="form-step" id="step3">
-                                    <h3 class="step-title">
-                                        <i class="fas fa-upload me-2"></i>
-                                        Step 3: Upload Documents
-                                    </h3>
-                                    <div class="upload-section">
-                                        <div class="upload-area" id="uploadArea">
-                                            <div class="upload-content">
-                                                <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
-                                                <h4>
-                                                    Drag & Drop Files Here
-                                                </h4>
-                                                <p class="text-muted">
-                                                    or click to browse files
-                                                </p>
-                                                <p class="text-muted small">
-                                                    Supported formats: PDF,
-                                                    JPEG, PNG (Max 10MB
-                                                    each)
-                                                </p>
-                                            </div>
-                                            <input type="file" id="fileInput" multiple accept=".pdf,.jpg,.jpeg,.png"
-                                                style="display: none" />
-                                        </div>
-                                        <div class="uploaded-files" id="uploadedFiles">
-                                            <!-- Uploaded files will appear here -->
-                                        </div>
-                                    </div>
-                                    <div class="step-actions">
-                                        <button type="button" class="btn btn-outline-secondary prev-step">
-                                            Previous
-                                        </button>
-                                        <button type="button" class="btn btn-primary next-step">
-                                            Next Step
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <!-- Step 4: Language & Preferences -->
-                                <div class="form-step" id="step4">
-                                    <h3 class="step-title">
-                                        <i class="fas fa-language me-2"></i>
-                                        Step 4: Language & Preferences
-                                    </h3>
-                                    <div class="row g-3">
-                                        <div class="col-md-6">
-                                            <label for="documentLanguage" class="form-label">Document Language</label>
-                                            <select class="form-select" id="documentLanguage" required>
-                                                <option value="" selected disabled>
-                                                    Choose language
-                                                </option>
-                                                <option value="arabic">
-                                                    Arabic
-                                                </option>
-                                                <option value="english">
-                                                    English
-                                                </option>
-                                                <option value="bilingual">
-                                                    Bilingual (Arabic &
-                                                    English)
-                                                </option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="urgency" class="form-label">Urgency Level</label>
-                                            <select class="form-select" id="urgency" required>
-                                                <option value="" selected disabled>
-                                                    Choose urgency
-                                                </option>
-                                                <option value="standard">
-                                                    Standard (3-5 business
-                                                    days)
-                                                </option>
-                                                <option value="express">
-                                                    Express (1-2 business
-                                                    days)
-                                                </option>
-                                                <option value="urgent">
-                                                    Urgent (Same day)
-                                                </option>
-                                            </select>
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="specialInstructions" class="form-label">Special
-                                                Instructions</label>
-                                            <textarea class="form-control" id="specialInstructions" rows="3"
-                                                placeholder="Any special requirements or instructions..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="step-actions">
-                                        <button type="button" class="btn btn-outline-secondary prev-step">
-                                            Previous
-                                        </button>
-                                        <button type="button" class="btn btn-primary next-step">
-                                            Review Order
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <!-- Step 5: Order Summary -->
-                                <div class="form-step" id="step5">
-                                    <h3 class="step-title">
-                                        <i class="fas fa-check-circle me-2"></i>
-                                        Step 5: Review & Submit
-                                    </h3>
-                                    <div class="order-summary">
-                                        <div class="summary-section">
-                                            <h4>Order Summary</h4>
-                                            <div class="summary-content" id="orderSummary">
-                                                <!-- Order summary will be populated here -->
-                                            </div>
-                                        </div>
-                                        <div class="terms-section">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="termsAccepted"
-                                                    required />
-                                                <label class="form-check-label" for="termsAccepted">
-                                                    I agree to the
-                                                    <a href="#" class="text-primary">Terms and
-                                                        Conditions</a>
-                                                    and
-                                                    <a href="#" class="text-primary">Privacy Policy</a>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="step-actions">
-                                        <button type="button" class="btn btn-outline-secondary prev-step">
-                                            Previous
-                                        </button>
-                                        <button type="submit" class="btn btn-success">
-                                            Submit Order
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-       <!-- Footer -->
-    <footer class="bg-dark text-white py-5">
-        <div class="container">
-            <div class="row g-4">
-                <!-- Logo Section -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-logo mb-4">
-                        <img src="img/logo/logo.png" alt="QUICK LINK Logo" height="50" class="mb-3" />
-                        <p class="mb-3">
-                            Professional notary and document services across
-                            the UAE.
-                        </p>
-                        <div class="social-links">
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="text-white me-3 fs-5">
-                                <i class="fab fa-whatsapp"></i>
-                            </a>
-                            <a href="#" class="text-white fs-5">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Quick Links Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="index.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Home
-                            </a>
+    <body>
+        <!-- Navigation -->
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="img/logo/logo.png"
+                        alt="QUICK LINK Logo"
+                        height="40"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html"
+                                >Home</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="about-us.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>About Us
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html"
+                                >About Us</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="services.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>All
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="servicesDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
                                 Services
                             </a>
+                            <ul
+                                class="dropdown-menu dropdown-menu-animate"
+                                aria-labelledby="servicesDropdown"
+                            >
+                                <!-- <li>
+                                <a class="dropdown-item" href="services.html">All Services</a>
+                            </li> -->
+                                <!-- <li>
+                                <hr class="dropdown-divider" />
+                            </li> -->
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        Legal Documents
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-power-of-attorney.html"
+                                        >Power of Attorney</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-company-establishment.html"
+                                        >Company Establishment</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-legal-notice.html"
+                                        >Legal Notice</a
+                                    >
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        Certificates & Translation
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-legal-translation.html"
+                                        >Legal Translation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-no-objection.html"
+                                        >No Objection Certificate</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-true-copy.html"
+                                        >True Copy (Certified Copy)</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-document-attestation.html"
+                                        >Document Attestation</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-declarations.html"
+                                        >Legal Declarations</a
+                                    >
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <h6 class="dropdown-header">
+                                        Special Services
+                                    </h6>
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-will.html"
+                                        >Will Services</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="service-golden-visa.html"
+                                        >Golden Visa</a
+                                    >
+                                </li>
+                            </ul>
                         </li>
-                        <li class="mb-2">
-                            <a href="consultation-booking.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Book Consultation
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultation-booking.html"
+                                >Book Consultation</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="order-now.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Order Now
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="order-now.html"
+                                >Order Now</a
+                            >
                         </li>
-                        <li class="mb-2">
-                            <a href="faq.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>FAQ
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
                         </li>
-                        <li class="mb-2">
-                            <a href="contact.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Contact
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a
+                                class="btn btn-outline-primary"
+                                href="order-now-rtl.html"
+                                >العربية</a
+                            >
                         </li>
                     </ul>
                 </div>
+            </div>
+        </nav>
 
-                <!-- Services Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">Services</h5>
-                    <ul class="list-unstyled">
-                        <li class="mb-2">
-                            <a href="service-power-of-attorney.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Power of Attorney
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-company-establishment.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Company Establishment
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-legal-notice.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Legal Notice
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-legal-translation.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Legal Translation
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-no-objection.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>No
-                                Objection Certificate
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-true-copy.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>True Copy
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-will.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Will Services
-                            </a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="service-golden-visa.html" class="text-white-50 text-decoration-none">
-                                <i class="fas fa-chevron-right me-2"></i>Golden Visa
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Contact Us Section -->
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-3">Contact Us</h5>
-                    <div class="contact-info">
-                        <div class="mb-3">
-                            <i class="fas fa-phone me-2 text-primary"></i>
-                            <span>+971 54 248 5508</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-phone me-2 text-primary"></i>
-                            <span>+971 50 592 1317</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-envelope me-2 text-primary"></i>
-                            <span>quicklink0@outlook.com</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-envelope me-2 text-primary"></i>
-                            <span>quiklink2025@gmail.com</span>
-                        </div>
-                        <div class="mb-3">
-                            <i class="fas fa-map-marker-alt me-2 text-primary"></i>
-                            <span>UAE - All Emirates</span>
+        <!-- Hero Section -->
+        <section class="order-hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="order-hero-content">
+                            <h1 class="animate-on-scroll">
+                                Order Your Legal Services
+                            </h1>
+                            <p class="animate-on-scroll">
+                                Get your legal documents prepared and
+                                authenticated with our professional services.
+                                Choose your service, upload documents, and we'll
+                                handle the rest with expert care.
+                            </p>
+                            <div class="order-steps animate-on-scroll">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <span>Select Service</span>
+                                </div>
+                                <div class="step-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <span>Upload Documents</span>
+                                </div>
+                                <div class="step-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="step-item">
+                                    <div class="step-number">3</div>
+                                    <span>Get Documents</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="mt-3">
-                        <a href="contact.html" class="btn btn-outline-light btn-sm">
-                            Get in Touch
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="order-hero-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080&q=80"
+                                alt="Legal Services"
+                                class="img-fluid rounded-lg shadow-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Form Section -->
+        <section class="order-form-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="order-form-card">
+                            <div class="card-header text-center">
+                                <h2>Service Order Form</h2>
+                                <p class="text-muted">
+                                    Complete the form below to order your legal
+                                    service
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <form id="orderForm" class="order-form">
+                                    <!-- Step 1: Service Selection -->
+                                    <div class="form-step active" id="step1">
+                                        <h3 class="step-title">
+                                            <i class="fas fa-list-alt me-2"></i>
+                                            Step 1: Select Your Service
+                                        </h3>
+                                        <div class="row g-4">
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="serviceCategory"
+                                                    class="form-label"
+                                                    >Service Category</label
+                                                >
+                                                <select
+                                                    class="form-select"
+                                                    id="serviceCategory"
+                                                    required
+                                                >
+                                                    <option
+                                                        value=""
+                                                        selected
+                                                        disabled
+                                                    >
+                                                        Choose a category
+                                                    </option>
+                                                    <option
+                                                        value="legal-documents"
+                                                    >
+                                                        Legal Documents
+                                                    </option>
+                                                    <option
+                                                        value="certificates"
+                                                    >
+                                                        Certificates &
+                                                        Translation
+                                                    </option>
+                                                    <option
+                                                        value="special-services"
+                                                    >
+                                                        Special Services
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="serviceType"
+                                                    class="form-label"
+                                                    >Service Type</label
+                                                >
+                                                <select
+                                                    class="form-select"
+                                                    id="serviceType"
+                                                    required
+                                                >
+                                                    <option
+                                                        value=""
+                                                        selected
+                                                        disabled
+                                                    >
+                                                        Choose a service
+                                                    </option>
+                                                    <!-- Options will be populated via JavaScript -->
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label
+                                                    for="serviceDescription"
+                                                    class="form-label"
+                                                    >Service Description</label
+                                                >
+                                                <textarea
+                                                    class="form-control"
+                                                    id="serviceDescription"
+                                                    rows="3"
+                                                    placeholder="Please provide details about your specific requirements..."
+                                                ></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary next-step"
+                                            >
+                                                Next Step
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 2: Personal Information -->
+                                    <div class="form-step" id="step2">
+                                        <h3 class="step-title">
+                                            <i class="fas fa-user me-2"></i>
+                                            Step 2: Personal Information
+                                        </h3>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="fullName"
+                                                    class="form-label"
+                                                    >Full Name</label
+                                                >
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="fullName"
+                                                    required
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="email"
+                                                    class="form-label"
+                                                    >Email Address</label
+                                                >
+                                                <input
+                                                    type="email"
+                                                    class="form-control"
+                                                    id="email"
+                                                    required
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="phone"
+                                                    class="form-label"
+                                                    >Phone Number</label
+                                                >
+                                                <input
+                                                    type="tel"
+                                                    class="form-control"
+                                                    id="phone"
+                                                    required
+                                                />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="nationality"
+                                                    class="form-label"
+                                                    >Nationality</label
+                                                >
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="nationality"
+                                                    required
+                                                />
+                                            </div>
+                                            <div class="col-12">
+                                                <label
+                                                    for="address"
+                                                    class="form-label"
+                                                    >Address</label
+                                                >
+                                                <textarea
+                                                    class="form-control"
+                                                    id="address"
+                                                    rows="2"
+                                                    placeholder="Enter your full address"
+                                                ></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                            <button
+                                                type="button"
+                                                class="btn btn-outline-secondary prev-step"
+                                            >
+                                                Previous
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary next-step"
+                                            >
+                                                Next Step
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 3: Document Upload -->
+                                    <div class="form-step" id="step3">
+                                        <h3 class="step-title">
+                                            <i class="fas fa-upload me-2"></i>
+                                            Step 3: Upload Documents
+                                        </h3>
+                                        <div class="upload-section">
+                                            <div
+                                                class="upload-area"
+                                                id="uploadArea"
+                                            >
+                                                <div class="upload-content">
+                                                    <i
+                                                        class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"
+                                                    ></i>
+                                                    <h4>
+                                                        Drag & Drop Files Here
+                                                    </h4>
+                                                    <p class="text-muted">
+                                                        or click to browse files
+                                                    </p>
+                                                    <p class="text-muted small">
+                                                        Supported formats: PDF,
+                                                        JPEG, PNG (Max 10MB
+                                                        each)
+                                                    </p>
+                                                </div>
+                                                <input
+                                                    type="file"
+                                                    id="fileInput"
+                                                    multiple
+                                                    accept=".pdf,.jpg,.jpeg,.png"
+                                                    class="order-file-input"
+                                                />
+                                            </div>
+                                            <div
+                                                class="uploaded-files"
+                                                id="uploadedFiles"
+                                            >
+                                                <!-- Uploaded files will appear here -->
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                            <button
+                                                type="button"
+                                                class="btn btn-outline-secondary prev-step"
+                                            >
+                                                Previous
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary next-step"
+                                            >
+                                                Next Step
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 4: Language & Preferences -->
+                                    <div class="form-step" id="step4">
+                                        <h3 class="step-title">
+                                            <i class="fas fa-language me-2"></i>
+                                            Step 4: Language & Preferences
+                                        </h3>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="documentLanguage"
+                                                    class="form-label"
+                                                    >Document Language</label
+                                                >
+                                                <select
+                                                    class="form-select"
+                                                    id="documentLanguage"
+                                                    required
+                                                >
+                                                    <option
+                                                        value=""
+                                                        selected
+                                                        disabled
+                                                    >
+                                                        Choose language
+                                                    </option>
+                                                    <option value="arabic">
+                                                        Arabic
+                                                    </option>
+                                                    <option value="english">
+                                                        English
+                                                    </option>
+                                                    <option value="bilingual">
+                                                        Bilingual (Arabic &
+                                                        English)
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label
+                                                    for="urgency"
+                                                    class="form-label"
+                                                    >Urgency Level</label
+                                                >
+                                                <select
+                                                    class="form-select"
+                                                    id="urgency"
+                                                    required
+                                                >
+                                                    <option
+                                                        value=""
+                                                        selected
+                                                        disabled
+                                                    >
+                                                        Choose urgency
+                                                    </option>
+                                                    <option value="standard">
+                                                        Standard (3-5 business
+                                                        days)
+                                                    </option>
+                                                    <option value="express">
+                                                        Express (1-2 business
+                                                        days)
+                                                    </option>
+                                                    <option value="urgent">
+                                                        Urgent (Same day)
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label
+                                                    for="specialInstructions"
+                                                    class="form-label"
+                                                    >Special Instructions</label
+                                                >
+                                                <textarea
+                                                    class="form-control"
+                                                    id="specialInstructions"
+                                                    rows="3"
+                                                    placeholder="Any special requirements or instructions..."
+                                                ></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                            <button
+                                                type="button"
+                                                class="btn btn-outline-secondary prev-step"
+                                            >
+                                                Previous
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary next-step"
+                                            >
+                                                Review Order
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Step 5: Order Summary -->
+                                    <div class="form-step" id="step5">
+                                        <h3 class="step-title">
+                                            <i
+                                                class="fas fa-check-circle me-2"
+                                            ></i>
+                                            Step 5: Review & Submit
+                                        </h3>
+                                        <div class="order-summary">
+                                            <div class="summary-section">
+                                                <h4>Order Summary</h4>
+                                                <div
+                                                    class="summary-content"
+                                                    id="orderSummary"
+                                                >
+                                                    <!-- Order summary will be populated here -->
+                                                </div>
+                                            </div>
+                                            <div class="terms-section">
+                                                <div class="form-check">
+                                                    <input
+                                                        class="form-check-input"
+                                                        type="checkbox"
+                                                        id="termsAccepted"
+                                                        required
+                                                    />
+                                                    <label
+                                                        class="form-check-label"
+                                                        for="termsAccepted"
+                                                    >
+                                                        I agree to the
+                                                        <a
+                                                            href="#"
+                                                            class="text-primary"
+                                                            >Terms and
+                                                            Conditions</a
+                                                        >
+                                                        and
+                                                        <a
+                                                            href="#"
+                                                            class="text-primary"
+                                                            >Privacy Policy</a
+                                                        >
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                            <button
+                                                type="button"
+                                                class="btn btn-outline-secondary prev-step"
+                                            >
+                                                Previous
+                                            </button>
+                                            <button
+                                                type="submit"
+                                                class="btn btn-success"
+                                            >
+                                                Submit Order
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Logo Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-logo mb-4">
+                            <img
+                                src="img/logo/logo.png"
+                                alt="QUICK LINK Logo"
+                                height="50"
+                                class="mb-3"
+                            />
+                            <p class="mb-3">
+                                Professional notary and document services across
+                                the UAE.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-white me-3 fs-5">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#" class="text-white fs-5">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="index.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Home
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="about-us.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >About Us
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="services.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i>All
+                                    Services
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="consultation-booking.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Book Consultation
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="order-now.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Order Now
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="faq.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i>FAQ
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="contact.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Services Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">Services</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="service-power-of-attorney.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Power of Attorney
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-company-establishment.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Company Establishment
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-legal-notice.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Legal Notice
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-legal-translation.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Legal Translation
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-no-objection.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i>No
+                                    Objection Certificate
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-true-copy.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >True Copy
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-will.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Will Services
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="service-golden-visa.html"
+                                    class="text-white-50 text-decoration-none"
+                                >
+                                    <i class="fas fa-chevron-right me-2"></i
+                                    >Golden Visa
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Us Section -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-3">Contact Us</h5>
+                        <div class="contact-info">
+                            <div class="mb-3">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <span>+971 54 248 5508</span>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-phone me-2 text-primary"></i>
+                                <span>+971 50 592 1317</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-envelope me-2 text-primary"
+                                ></i>
+                                <span>quicklink0@outlook.com</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-envelope me-2 text-primary"
+                                ></i>
+                                <span>quiklink2025@gmail.com</span>
+                            </div>
+                            <div class="mb-3">
+                                <i
+                                    class="fas fa-map-marker-alt me-2 text-primary"
+                                ></i>
+                                <span>UAE - All Emirates</span>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <a
+                                href="contact.html"
+                                class="btn btn-outline-light btn-sm"
+                            >
+                                Get in Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4" />
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0 small">
+                            &copy; 2024 QUICK LINK. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a
+                            href="index-rtl.html"
+                            class="btn btn-outline-light btn-sm"
+                        >
+                            العربية
                         </a>
                     </div>
                 </div>
             </div>
-            <hr class="my-4" />
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p class="mb-0 small">
-                        &copy; 2024 QUICK LINK. All Rights Reserved.
-                    </p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="index-rtl.html" class="btn btn-outline-light btn-sm">
-                        العربية
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/971542485508" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+        <!-- WhatsApp Float -->
+        <a
+            href="https://wa.me/971542485508"
+            class="whatsapp-float"
+            target="_blank"
+        >
+            <i class="fab fa-whatsapp"></i>
+        </a>
 
-    <!-- Call Float -->
-    <a href="tel:+971542485508" class="call-float">
-        <i class="fas fa-phone"></i>
-    </a>
+        <!-- Call Float -->
+        <a href="tel:+971542485508" class="call-float">
+            <i class="fas fa-phone"></i>
+        </a>
 
-    <!-- Bootstrap 5 JS Bundle with Popper -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script src="js/custom.js"></script>
-    <!-- Responsive JS -->
-    <script src="js/responsive.js"></script>
-    <!-- Order Form JS -->
-    <script>
-        // Order Form JavaScript
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.getElementById("orderForm");
-            const steps = document.querySelectorAll(".form-step");
-            const nextButtons = document.querySelectorAll(".next-step");
-            const prevButtons = document.querySelectorAll(".prev-step");
-            let currentStep = 0;
+        <!-- Bootstrap 5 JS Bundle with Popper -->
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.js"></script>
+        <!-- Responsive JS -->
+        <script src="js/responsive.js"></script>
+        <!-- Order Form JS -->
+        <script>
+            // Order Form JavaScript
+            document.addEventListener("DOMContentLoaded", function () {
+                const form = document.getElementById("orderForm");
+                const steps = document.querySelectorAll(".form-step");
+                const nextButtons = document.querySelectorAll(".next-step");
+                const prevButtons = document.querySelectorAll(".prev-step");
+                let currentStep = 0;
 
-            // Service options mapping
-            const serviceOptions = {
-                "legal-documents": [
-                    "Power of Attorney",
-                    "Company Establishment",
-                    "Legal Notice",
-                ],
-                certificates: [
-                    "Legal Translation",
-                    "No Objection Certificate",
-                    "True Copy (Certified Copy)",
-                ],
-                "special-services": ["Will Services", "Golden Visa"],
-            };
+                // Service options mapping
+                const serviceOptions = {
+                    "legal-documents": [
+                        "Power of Attorney",
+                        "Company Establishment",
+                        "Legal Notice",
+                    ],
+                    certificates: [
+                        "Legal Translation",
+                        "No Objection Certificate",
+                        "True Copy (Certified Copy)",
+                    ],
+                    "special-services": ["Will Services", "Golden Visa"],
+                };
 
-            // Populate service options
-            const serviceCategory =
-                document.getElementById("serviceCategory");
-            const serviceType = document.getElementById("serviceType");
+                // Populate service options
+                const serviceCategory =
+                    document.getElementById("serviceCategory");
+                const serviceType = document.getElementById("serviceType");
 
-            serviceCategory.addEventListener("change", function () {
-                const category = this.value;
-                serviceType.innerHTML =
-                    '<option value="" selected disabled>Choose a service</option>';
+                serviceCategory.addEventListener("change", function () {
+                    const category = this.value;
+                    serviceType.innerHTML =
+                        '<option value="" selected disabled>Choose a service</option>';
 
-                if (serviceOptions[category]) {
-                    serviceOptions[category].forEach((service) => {
-                        const option = document.createElement("option");
-                        option.value = service
-                            .toLowerCase()
-                            .replace(/\s+/g, "-");
-                        option.textContent = service;
-                        serviceType.appendChild(option);
+                    if (serviceOptions[category]) {
+                        serviceOptions[category].forEach((service) => {
+                            const option = document.createElement("option");
+                            option.value = service
+                                .toLowerCase()
+                                .replace(/\s+/g, "-");
+                            option.textContent = service;
+                            serviceType.appendChild(option);
+                        });
+                    }
+                });
+
+                // Next step functionality
+                nextButtons.forEach((button) => {
+                    button.addEventListener("click", function () {
+                        if (validateStep(currentStep)) {
+                            steps[currentStep].classList.remove("active");
+                            currentStep++;
+                            steps[currentStep].classList.add("active");
+                            updateProgress();
+                        }
                     });
-                }
-            });
+                });
 
-            // Next step functionality
-            nextButtons.forEach((button) => {
-                button.addEventListener("click", function () {
-                    if (validateStep(currentStep)) {
+                // Previous step functionality
+                prevButtons.forEach((button) => {
+                    button.addEventListener("click", function () {
                         steps[currentStep].classList.remove("active");
-                        currentStep++;
+                        currentStep--;
                         steps[currentStep].classList.add("active");
                         updateProgress();
-                    }
+                    });
                 });
-            });
 
-            // Previous step functionality
-            prevButtons.forEach((button) => {
-                button.addEventListener("click", function () {
-                    steps[currentStep].classList.remove("active");
-                    currentStep--;
-                    steps[currentStep].classList.add("active");
-                    updateProgress();
+                // File upload functionality
+                const uploadArea = document.getElementById("uploadArea");
+                const fileInput = document.getElementById("fileInput");
+                const uploadedFiles = document.getElementById("uploadedFiles");
+
+                uploadArea.addEventListener("click", () => fileInput.click());
+                uploadArea.addEventListener("dragover", (e) => {
+                    e.preventDefault();
+                    uploadArea.classList.add("dragover");
                 });
-            });
+                uploadArea.addEventListener("dragleave", () => {
+                    uploadArea.classList.remove("dragover");
+                });
+                uploadArea.addEventListener("drop", (e) => {
+                    e.preventDefault();
+                    uploadArea.classList.remove("dragover");
+                    const files = e.dataTransfer.files;
+                    handleFiles(files);
+                });
 
-            // File upload functionality
-            const uploadArea = document.getElementById("uploadArea");
-            const fileInput = document.getElementById("fileInput");
-            const uploadedFiles = document.getElementById("uploadedFiles");
+                fileInput.addEventListener("change", (e) => {
+                    handleFiles(e.target.files);
+                });
 
-            uploadArea.addEventListener("click", () => fileInput.click());
-            uploadArea.addEventListener("dragover", (e) => {
-                e.preventDefault();
-                uploadArea.classList.add("dragover");
-            });
-            uploadArea.addEventListener("dragleave", () => {
-                uploadArea.classList.remove("dragover");
-            });
-            uploadArea.addEventListener("drop", (e) => {
-                e.preventDefault();
-                uploadArea.classList.remove("dragover");
-                const files = e.dataTransfer.files;
-                handleFiles(files);
-            });
+                function handleFiles(files) {
+                    Array.from(files).forEach((file) => {
+                        if (file.size > 10 * 1024 * 1024) {
+                            alert("File size must be less than 10MB");
+                            return;
+                        }
 
-            fileInput.addEventListener("change", (e) => {
-                handleFiles(e.target.files);
-            });
-
-            function handleFiles(files) {
-                Array.from(files).forEach((file) => {
-                    if (file.size > 10 * 1024 * 1024) {
-                        alert("File size must be less than 10MB");
-                        return;
-                    }
-
-                    const fileItem = document.createElement("div");
-                    fileItem.className = "uploaded-file";
-                    fileItem.innerHTML = `
+                        const fileItem = document.createElement("div");
+                        fileItem.className = "uploaded-file";
+                        fileItem.innerHTML = `
                             <i class="fas fa-file-alt"></i>
                             <span>${file.name}</span>
                             <button type="button" class="btn-remove" onclick="this.parentElement.remove()">
                                 <i class="fas fa-times"></i>
                             </button>
                         `;
-                    uploadedFiles.appendChild(fileItem);
-                });
-            }
-
-            // Form submission
-            form.addEventListener("submit", function (e) {
-                e.preventDefault();
-                if (validateStep(currentStep)) {
-                    // Show success message
-                    alert(
-                        "Order submitted successfully! We will contact you within 2 minutes."
-                    );
-                    form.reset();
-                    currentStep = 0;
-                    steps.forEach((step, index) => {
-                        step.classList.toggle("active", index === 0);
+                        uploadedFiles.appendChild(fileItem);
                     });
-                    updateProgress();
                 }
-            });
 
-            function validateStep(step) {
-                const currentStepElement = steps[step];
-                const requiredFields =
-                    currentStepElement.querySelectorAll("[required]");
-                let isValid = true;
-
-                requiredFields.forEach((field) => {
-                    if (!field.value) {
-                        field.classList.add("is-invalid");
-                        isValid = false;
-                    } else {
-                        field.classList.remove("is-invalid");
+                // Form submission
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    if (validateStep(currentStep)) {
+                        // Show success message
+                        alert(
+                            "Order submitted successfully! We will contact you within 2 minutes."
+                        );
+                        form.reset();
+                        currentStep = 0;
+                        steps.forEach((step, index) => {
+                            step.classList.toggle("active", index === 0);
+                        });
+                        updateProgress();
                     }
                 });
 
-                return isValid;
-            }
+                function validateStep(step) {
+                    const currentStepElement = steps[step];
+                    const requiredFields =
+                        currentStepElement.querySelectorAll("[required]");
+                    let isValid = true;
 
-            function updateProgress() {
-                // Update progress indicator if needed
-                console.log("Current step:", currentStep + 1);
-            }
-        });
-    </script>
-</body>
+                    requiredFields.forEach((field) => {
+                        if (!field.value) {
+                            field.classList.add("is-invalid");
+                            isValid = false;
+                        } else {
+                            field.classList.remove("is-invalid");
+                        }
+                    });
 
+                    return isValid;
+                }
+
+                function updateProgress() {
+                    // Update progress indicator if needed
+                    console.log("Current step:", currentStep + 1);
+                }
+            });
+        </script>
+    </body>
 </html>

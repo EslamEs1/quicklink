@@ -98,18 +98,29 @@ a:hover {
   color: var(--primary-dark);
 }
 
+/* Enhanced Button Styles with Touch Target Compliance */
 .btn {
   border-radius: var(--radius-pill);
-  padding: 0.75rem 1.75rem;
+  padding: 0.875rem 2rem;
   font-weight: 500;
   transition: all var(--transition-normal);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-family: var(--font-secondary);
   position: relative;
   overflow: hidden;
   z-index: 1;
+  /* Ensure minimum touch target size */
+  min-height: 48px;
+  min-width: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  line-height: 1.2;
 }
 
 .btn:before {
@@ -126,6 +137,111 @@ a:hover {
 
 .btn:hover:before {
   left: 100%;
+}
+
+.btn-lg {
+  padding: 1.125rem 2.75rem;
+  font-size: 1rem;
+  min-height: 56px;
+  min-width: 56px;
+}
+
+.btn-sm {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.85rem;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(64, 171, 223, 0.15);
+  color: var(--white);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(64, 171, 223, 0.25);
+  color: var(--white);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+  background-color: var(--primary-color);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-success {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  box-shadow: 0 4px 15px rgba(81, 198, 118, 0.15);
+  color: var(--white);
+}
+
+.btn-success:hover, .btn-success:focus {
+  background-color: var(--secondary-dark);
+  border-color: var(--secondary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(81, 198, 118, 0.25);
+  color: var(--white);
+}
+
+.btn-outline-light {
+  border-width: 2px;
+  color: var(--white);
+  background-color: transparent;
+  border-color: var(--white);
+}
+
+.btn-outline-light:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--white);
+}
+
+/* Button with icons */
+.btn i {
+  margin-right: 0.5rem;
+  font-size: 0.9em;
+}
+
+.btn.btn-icon-only {
+  padding: 0.875rem;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.btn.btn-icon-only i {
+  margin-right: 0;
+}
+
+/* Disabled state */
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Focus states for accessibility */
+.btn:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.btn:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .btn-lg {
@@ -304,7 +420,7 @@ a:hover {
 
 .hero-section .carousel-item img {
   object-fit: cover;
-  height: 100vh;
+  height: 80vh;
   min-height: 600px;
 }
 
@@ -1309,7 +1425,7 @@ footer .social-links a:hover {
 
 @media (max-width: 575.98px) {
   .hero-section .carousel-caption h1 {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
   }
   
   .btn {
@@ -4528,4 +4644,911 @@ footer .d-flex a:hover {
         margin-right: 0.5rem;
         font-size: 1rem;
     }
+}
+
+/* Service Hero Section - Inline Style Replacement */
+.service-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Hero Image Styles - Inline Style Replacement */
+.service-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Modern CTA Section - Inline Style Replacement */
+.modern-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* SVG Decorative Elements - Inline Style Replacement */
+.service-hero-section svg,
+.modern-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Request Form Styles - Inline Style Replacement */
+.modern-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Service Details Section Image - Inline Style Replacement */
+.service-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Responsive adjustments for hero image */
+@media (max-width: 767.98px) {
+  .service-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .service-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .service-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .service-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Golden Visa Service Hero Section - Inline Style Replacement */
+.golden-visa-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Golden Visa Hero Image Styles - Inline Style Replacement */
+.golden-visa-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Golden Visa Service Details Section Image - Inline Style Replacement */
+.golden-visa-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Golden Visa Modern CTA Section - Inline Style Replacement */
+.golden-visa-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Golden Visa SVG Decorative Elements - Inline Style Replacement */
+.golden-visa-hero-section svg,
+.golden-visa-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Golden Visa Request Form Styles - Inline Style Replacement */
+.golden-visa-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for Golden Visa images */
+@media (max-width: 767.98px) {
+  .golden-visa-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .golden-visa-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .golden-visa-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .golden-visa-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Service Declarations Hero Section - Inline Style Replacement */
+.service-declarations-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Service Declarations Hero Image Styles - Inline Style Replacement */
+.service-declarations-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Service Declarations Service Details Section Image - Inline Style Replacement */
+.service-declarations-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Service Declarations Modern CTA Section - Inline Style Replacement */
+.service-declarations-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Service Declarations SVG Decorative Elements - Inline Style Replacement */
+.service-declarations-hero-section svg,
+.service-declarations-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Service Declarations Request Form Styles - Inline Style Replacement */
+.service-declarations-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for Service Declarations images */
+@media (max-width: 767.98px) {
+  .service-declarations-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .service-declarations-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .service-declarations-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .service-declarations-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* About Us Hero Section - Inline Style Replacement */
+.about-hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* About Us Hero Image Styles - Inline Style Replacement */
+.about-hero-section .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* About Us Company Overview Image - Inline Style Replacement */
+.about-company-overview .img-fluid {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* About Us Mission/Vision Icons - Inline Style Replacement */
+.about-mission-icon,
+.about-vision-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* About Us Team Avatar Images - Inline Style Replacement */
+.about-team-avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* About Us License Icons - Inline Style Replacement */
+.about-license-icon {
+  width: 60px;
+  height: 60px;
+}
+
+/* About Us Modern CTA Section - Inline Style Replacement */
+.about-cta-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+/* About Us SVG Decorative Elements - Inline Style Replacement */
+.about-hero-section svg,
+.about-cta-section svg {
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Responsive adjustments for about us images */
+@media (max-width: 767.98px) {
+  .about-hero-section .img-fluid {
+    max-height: 320px;
+  }
+  
+  .about-company-overview .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .about-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .about-company-overview .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Document Attestation Service Hero Section - Inline Style Replacement */
+.document-attestation-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Document Attestation Hero Image Styles - Inline Style Replacement */
+.document-attestation-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Document Attestation Service Details Section Image - Inline Style Replacement */
+.document-attestation-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Document Attestation Modern CTA Section - Inline Style Replacement */
+.document-attestation-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Document Attestation SVG Decorative Elements - Inline Style Replacement */
+.document-attestation-hero-section svg,
+.document-attestation-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Document Attestation Request Form Styles - Inline Style Replacement */
+.document-attestation-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* True Copy Service Hero Section - Inline Style Replacement */
+.true-copy-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* True Copy Hero Image Styles - Inline Style Replacement */
+.true-copy-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* True Copy Service Details Section Image - Inline Style Replacement */
+.true-copy-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* True Copy Modern CTA Section - Inline Style Replacement */
+.true-copy-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* True Copy SVG Decorative Elements - Inline Style Replacement */
+.true-copy-hero-section svg,
+.true-copy-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* True Copy Request Form Styles - Inline Style Replacement */
+.true-copy-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for Document Attestation images */
+@media (max-width: 767.98px) {
+  .document-attestation-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .document-attestation-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .document-attestation-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .document-attestation-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Responsive adjustments for True Copy images */
+@media (max-width: 767.98px) {
+  .true-copy-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .true-copy-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .true-copy-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .true-copy-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* No Objection Service Hero Section - Inline Style Replacement */
+.no-objection-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* No Objection Hero Image Styles - Inline Style Replacement */
+.no-objection-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* No Objection Service Details Section Image - Inline Style Replacement */
+.no-objection-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* No Objection Modern CTA Section - Inline Style Replacement */
+.no-objection-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* No Objection SVG Decorative Elements - Inline Style Replacement */
+.no-objection-hero-section svg,
+.no-objection-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* No Objection Request Form Styles - Inline Style Replacement */
+.no-objection-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for No Objection images */
+@media (max-width: 767.98px) {
+  .no-objection-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .no-objection-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .no-objection-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .no-objection-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Legal Notice Service Hero Section - Inline Style Replacement */
+.legal-notice-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Legal Notice Hero Image Styles - Inline Style Replacement */
+.legal-notice-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Legal Notice Service Details Section Image - Inline Style Replacement */
+.legal-notice-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Legal Notice Modern CTA Section - Inline Style Replacement */
+.legal-notice-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Legal Notice SVG Decorative Elements - Inline Style Replacement */
+.legal-notice-hero-section svg,
+.legal-notice-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Legal Notice Request Form Styles - Inline Style Replacement */
+.legal-notice-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for Legal Notice images */
+@media (max-width: 767.98px) {
+  .legal-notice-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .legal-notice-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .legal-notice-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .legal-notice-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Company Establishment Service Hero Section - Inline Style Replacement */
+.company-establishment-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Company Establishment Hero Image Styles - Inline Style Replacement */
+.company-establishment-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Company Establishment Service Details Section Image - Inline Style Replacement */
+.company-establishment-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Company Establishment Modern CTA Section - Inline Style Replacement */
+.company-establishment-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Company Establishment SVG Decorative Elements - Inline Style Replacement */
+.company-establishment-hero-section svg,
+.company-establishment-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Company Establishment Request Form Styles - Inline Style Replacement */
+.company-establishment-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments for Company Establishment images */
+@media (max-width: 767.98px) {
+  .company-establishment-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .company-establishment-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .company-establishment-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .company-establishment-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Power of Attorney Service Hero Section - Inline Style Replacement */
+.power-of-attorney-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Power of Attorney Hero Image Styles - Inline Style Replacement */
+.power-of-attorney-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Power of Attorney Service Details Section Image - Inline Style Replacement */
+.power-of-attorney-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Power of Attorney Modern CTA Section - Inline Style Replacement */
+.power-of-attorney-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Power of Attorney SVG Decorative Elements - Inline Style Replacement */
+.power-of-attorney-hero-section svg,
+.power-of-attorney-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Power of Attorney Request Form Styles - Inline Style Replacement */
+.power-of-attorney-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Consultation Booking Success Icon - Inline Style Replacement */
+.consultation-success-icon {
+  font-size: 4rem;
+}
+
+/* Consultation Booking Form Navigation - Inline Style Replacement */
+.consultation-form-nav {
+  display: none;
+}
+
+.consultation-form-nav.show {
+  display: inline-block;
+}
+
+/* Responsive adjustments for Power of Attorney images */
+@media (max-width: 767.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .power-of-attorney-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .power-of-attorney-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Contact Service Hero Section - Inline Style Replacement */
+.contact-hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Contact Hero Image Styles - Inline Style Replacement */
+.contact-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Contact Service Details Section Image - Inline Style Replacement */
+.contact-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Contact Modern CTA Section - Inline Style Replacement */
+.contact-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Contact SVG Decorative Elements - Inline Style Replacement */
+.contact-hero-section svg,
+.contact-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Contact Request Form Styles - Inline Style Replacement */
+.contact-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Contact Icon Styles - Inline Style Replacement */
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* Contact Social Icon Styles - Inline Style Replacement */
+.contact-social .btn {
+  width: 45px;
+  height: 45px;
+}
+
+/* Contact Map Container Styles - Inline Style Replacement */
+.contact-map-container {
+  height: 400px;
+  background: #f8f9fa;
+}
+
+/* Contact Map Icon Styles - Inline Style Replacement */
+.contact-map-icon {
+  font-size: 4rem;
+}
+
+/* Order Now File Input Styles - Inline Style Replacement */
+.order-file-input {
+  display: none;
+}
+
+/* Responsive adjustments for Contact images */
+@media (max-width: 767.98px) {
+  .contact-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .contact-details-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-social .btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-map-container {
+    height: 300px;
+  }
+  
+  .contact-map-icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contact-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .contact-details-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .contact-social .btn {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .contact-map-container {
+    height: 250px;
+  }
+  
+  .contact-map-icon {
+    font-size: 2.5rem;
+  }
+}
+
+/* Legal Translation Service Hero Section - Inline Style Replacement */
+.legal-translation-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Legal Translation Hero Image Styles - Inline Style Replacement */
+.legal-translation-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Legal Translation Service Details Section Image - Inline Style Replacement */
+.legal-translation-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Legal Translation Modern CTA Section - Inline Style Replacement */
+.legal-translation-cta-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Legal Translation SVG Decorative Elements - Inline Style Replacement */
+.legal-translation-hero-section svg,
+.legal-translation-cta-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Legal Translation Request Form Styles - Inline Style Replacement */
+.legal-translation-request-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Legal Translation Icon Styles - Inline Style Replacement */
+.legal-translation-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Signature Notarization Service Hero Section - Inline Style Replacement */
+.signature-notarization-hero-section {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+  padding-top: 120px !important;
+  padding-bottom: 80px !important;
+}
+
+/* Signature Notarization Hero Image Styles - Inline Style Replacement */
+.signature-notarization-hero-section .img-fluid {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+/* Signature Notarization Service Details Section Image - Inline Style Replacement */
+.signature-notarization-details-section .img-fluid {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* Signature Notarization SVG Decorative Elements - Inline Style Replacement */
+.signature-notarization-hero-section svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Responsive adjustments for Legal Translation images */
+@media (max-width: 767.98px) {
+  .legal-translation-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .legal-translation-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .legal-translation-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .legal-translation-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Responsive adjustments for Signature Notarization images */
+@media (max-width: 767.98px) {
+  .signature-notarization-hero-section .img-fluid {
+    max-height: 280px;
+  }
+  
+  .signature-notarization-details-section .img-fluid {
+    max-height: 280px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .signature-notarization-hero-section .img-fluid {
+    max-height: 240px;
+  }
+  
+  .signature-notarization-details-section .img-fluid {
+    max-height: 240px;
+  }
+}
+
+/* Service Hero Background Circles */
+.service-hero-bg-circle {
+  width: 300px;
+  height: 300px;
+}
+
+.service-hero-bg-circle-1 {
+  transform: translate(30%, -30%);
+}
+
+.service-hero-bg-circle-2 {
+  width: 400px;
+  height: 400px;
+  transform: translate(-20%, 20%);
+}
+
+.service-hero-bg-circle-3 {
+  width: 600px;
+  height: 600px;
+}
+
+/* Service Hero Description */
+.service-hero-description {
+  max-width: 700px;
+}
+
+/* Special Category Icon Styles */
+.special-category-icon-bg {
+  background-color: rgba(200, 169, 126, 0.15);
+}
+
+.special-category-icon {
+  color: #c8a97e;
+}
+
+/* Service Section Description */
+.service-section-description {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Service CTA Gradient */
+.service-cta-gradient {
+  background: linear-gradient(90deg, #40abdf 0%, #51c676 100%);
+}
+
+/* Service CTA SVG */
+.service-cta-svg {
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 1;
 }
